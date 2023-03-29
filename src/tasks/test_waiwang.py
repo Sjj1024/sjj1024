@@ -17,7 +17,7 @@ headers = {
 # print(response.text)
 
 print(f"文件路径是：{os.getcwd()}")
-# 读文件
+# 读文件,可以读文件，但是写不了文件
 with open("requirements.txt", "r", encoding="utf-8") as f:
     print(f"外网读取到的文件内容:{f.read()}")
 
