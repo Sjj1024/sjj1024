@@ -1,7 +1,6 @@
 import requests
 
-url = "https://www.metart.com/"
-
+url = "https://www.google.com/"
 payload = {}
 headers = {
     'Upgrade-Insecure-Requests': '1',
@@ -10,10 +9,11 @@ headers = {
     'sec-ch-ua-mobile': '?0',
     'sec-ch-ua-platform': '"macOS"'
 }
-
-response = requests.request("GET", url, headers=headers, data=payload)
-
-print(response.text)
+# proxies = {'https': '127.0.0.1:10809'}
+# response = requests.request("GET", url, headers=headers, data=payload, proxies=proxies)
+# response = requests.request("GET", url, headers=headers, data=payload)
+#
+# print(response.text)
 
 # 读文件
 with open("waiwang_read.txt", "r", encoding="utf-8") as f:
@@ -21,4 +21,4 @@ with open("waiwang_read.txt", "r", encoding="utf-8") as f:
 
 # 写内容
 with open("waiwang.txt", "w", encoding="utf-8") as f:
-    f.write(response.text)
+    f.write("写进去的内容")
