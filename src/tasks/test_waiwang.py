@@ -1,4 +1,4 @@
-import requests
+from datetime import datetime
 import os
 
 url = "https://www.google.com/"
@@ -23,5 +23,5 @@ with open("requirements.txt", "r", encoding="utf-8") as f:
 
 # 写内容
 with open("waiwang.txt", "w", encoding="utf-8") as f:
-    f.write("写进去的内容")
+    f.write(f"""写进去的内容:{datetime.now().strftime("%d-%m-%Y %H:%M:%S")}""")
     print("写入成功")
