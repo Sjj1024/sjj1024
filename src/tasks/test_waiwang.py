@@ -16,7 +16,7 @@ response = requests.request("GET", url, headers=headers, data=payload)
 print(response.text)
 
 # 读文件
-with open("waiwang_read.txt", "f", encoding="utf-8") as f:
+with open("waiwang_read.txt", "r", encoding="utf-8") as f:
     print(f"外网读取到的文件内容:{f.read()}")
 
 # 写内容
