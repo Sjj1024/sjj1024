@@ -18,7 +18,7 @@ headers = {
 
 print(f"文件路径是：{os.getcwd()}")
 # 读文件
-with open("waiwang_read.txt", "r", encoding="utf-8") as f:
+with open("requirements.txt", "r", encoding="utf-8") as f:
     print(f"外网读取到的文件内容:{f.read()}")
 
 # 写内容
