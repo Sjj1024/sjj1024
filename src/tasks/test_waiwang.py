@@ -24,3 +24,4 @@ with open("requirements.txt", "r", encoding="utf-8") as f:
 # 写内容
 with open("waiwang.txt", "w", encoding="utf-8") as f:
     f.write("写进去的内容")
+    print("写入成功")
