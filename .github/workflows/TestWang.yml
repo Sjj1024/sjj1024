@@ -16,8 +16,8 @@ jobs:
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
       with:
-        ref: huijia
         python-version: "3.10"
+        ref: "huijia"
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
@@ -25,5 +25,4 @@ jobs:
     - name: StartCommit
       run: |
         # stop the build if there are Python syntax errors or undefined names
-        git checkout huijia
         python src/homes/home_task.py
