@@ -674,6 +674,13 @@ def save_encode_content_html(app_type, content):
         put_github_file(release_path, content_html)
 
 
+def put_readme_file():
+    # 读取readme内容同步到git中
+    with open("src/homes/README.md", "r", encoding="utf-8") as f:
+        readme_content = f.read()
+        put_github_file("README.md", readme_content)
+
+
 def put_github_file(path, content, commit=""):
     print("判断文件是否存在，存在就更新，不存在就增加")
     try:
@@ -704,6 +711,7 @@ def run():
         # print(f"{name} 加密后的数据是: {content}")
         save_encode_content_html(name, content)
         put_github_file(file_path, content)
+    put_readme_file()
     print(f"""
     Android三个地址:
     github:https://api.github.com/repos/{GIT_REPO}/contents/.github/hubsql/appHuijia.txt
