@@ -178,7 +178,7 @@ def get_cate_list():
 
 
 def read_daohang_html(template):
-    with open(f"replace_html/{template}", "r", encoding="utf-8") as f:
+    with open(f"src/homes/replace_html/{template}", "r", encoding="utf-8") as f:
         return f.read()
 
 
@@ -217,7 +217,7 @@ def url_to_android_html(more_info):
     tab_box_strs = "".join(tab_box_list)
     daohang_html = read_daohang_html("daohang_app_template.html")
     daohang_html_res = daohang_html.replace("templatePalace", tab_box_strs)
-    android_release_path = "release_html/daohang_app_releases.html"
+    android_release_path = "src/homes/release_html/daohang_app_releases.html"
     with open(android_release_path, "w", encoding="utf-8") as f:
         f.write(daohang_html_res)
     # 同步到github，用于测试预览效果是否正确
@@ -245,7 +245,7 @@ def set_home_source_urls(key, val):
 
 # 安卓app页面里面替换指定的网页内容
 def cao_app_exe_page(html_path):
-    with open(f"replace_html/{html_path}", "r", encoding="utf-8") as f:
+    with open(f"src/homes/replace_html/{html_path}", "r", encoding="utf-8") as f:
         content_html = f.read()
         content_html = content_html.replace("""<html>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -305,7 +305,7 @@ def url_to_iphone(more_info, is_iphone=True):
     tab_box_strs = "".join(tab_box_list)
     daohang_html = read_daohang_html("daohang_iphone_template.html")
     daohang_html_res = daohang_html.replace("templatePalace", tab_box_strs)
-    iphone_release_path = "release_html/daohang_iphone_releases.html"
+    iphone_release_path = "src/homes/release_html/daohang_iphone_releases.html"
     with open(iphone_release_path, "w", encoding="utf-8") as f:
         f.write(daohang_html_res)
     # 同步到github，用于测试预览效果是否正确
@@ -663,10 +663,10 @@ def encode_json(info):
 
 
 def save_encode_content_html(app_type, content):
-    with open("./replace_html/encode_content_template.html", "r", encoding="utf-8") as f:
+    with open("src/homes/replace_html/encode_content_template.html", "r", encoding="utf-8") as f:
         template = f.read()
         content_html = template.replace("encodeContent", content)
-        release_path = f"release_html/boke_content_{app_type}.html"
+        release_path = f"src/homes/release_html/boke_content_{app_type}.html"
         with open(release_path, "w", encoding="utf-8") as res:
             res.write(content_html)
         # 同步到github中
