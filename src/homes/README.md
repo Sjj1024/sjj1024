@@ -1,34 +1,34 @@
 ### 简单说明  
 fast find me，快速找到回家的路，持续更新中......  
-加QQ：2950525265 或者微信：nongqi666 可以快速获得邀请码
+加QQ：2950525265 或者Tg：https://t.me/xiaoshen1024 或者邮箱：1024xiaoshen@gmail.com 可以快速获得邀请码
 
 
 ### 1024回家安卓版  
-安卓安装包：待发布
+安卓安装包：待发布  
 iPhone界面：
 ![](https://1024.com/wp-content/uploads/2022/01/2022011714060442.jpg)
 
 ### 1024回家桌面版  
-windows安装包：待发布
-mac inter安装包：待发布
-mac m1/m2芯片包：待发布
+windows安装包：待发布  
+mac inter安装包：待发布  
+mac m1/m2芯片包：待发布  
 Windows界面：
 ![](https://p1.pstatp.com/origin/pgc-image/5b1fce82a056446393be86d36b4b7ee9)
 
 
 ### 1024回家iPhone版  
-iPhone安装包：待发布
+iPhone安装包：待发布  
 iPhone界面：
 ![](https://p1.pstatp.com/origin/pgc-image/5b1fce82a056446393be86d36b4b7ee9)
 
 ### 1024回家Chrome插件版
-Chrome插件安装包：待发布
+Chrome插件安装包：待发布  
 Chrome插件界面：
 ![](https://p1.pstatp.com/origin/pgc-image/5b1fce82a056446393be86d36b4b7ee9)
 
 
 ### 1024回家油猴版  
-油猴版安装包：待发布
+油猴版安装包：待发布  
 Windows界面：
 ![](https://p1.pstatp.com/origin/pgc-image/5b1fce82a056446393be86d36b4b7ee9)
 
