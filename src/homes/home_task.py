@@ -221,6 +221,8 @@ def url_to_android_html(more_info):
     with open(android_release_path, "w", encoding="utf-8") as f:
         f.write(daohang_html_res)
     # 同步到github，用于测试预览效果是否正确
+    # 同步到github中
+    android_release_path = android_release_path.replace("src/homes/", "")
     put_github_file(android_release_path, daohang_html_res)
     return daohang_html_res
 
@@ -309,6 +311,7 @@ def url_to_iphone(more_info, is_iphone=True):
     with open(iphone_release_path, "w", encoding="utf-8") as f:
         f.write(daohang_html_res)
     # 同步到github，用于测试预览效果是否正确
+    iphone_release_path = iphone_release_path.replace("src/homes/", "")
     put_github_file(iphone_release_path, daohang_html_res)
     # 同步到iphone端的内容
     if is_iphone:

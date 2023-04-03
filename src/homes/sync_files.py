@@ -43,24 +43,21 @@ def recursive_dir(path, f, file_list):
                 recursive_dir(fi, fl, file_list)
 
 
-def del_homes():
+def del_homes(root):
     print("同步此文件夹中的内容到git")
     # 将home_task编译加密
-    py_compile.compile(r'home_task.py', "home_task.pyc")
-    home_files = []
-    recursive_dir(os.getcwd(), "", home_files)
-    print(home_files)
-    for app in home_files:
-        print(app)
-        if "pyc" in app or app not in ["sync_files.py", "home_task.py"]:
-            # 删除文件
-            try:
-                contents = repo.get_contents(app)
+    try:
+        contents = repo.get_contents(root)
+        for file in contents:
+            file_path = file.path
+            # 判断是文件还是文件夹
+            if len([i for i in file_path.split(".") if i]) > 1:
+                contents = repo.get_contents(file_path)
                 repo.delete_file(contents.path, "remove files", contents.sha)
-            except Exception as e:
-                print(f"删除失败：{e}")
-        else:
-            print("python原文件没有上传，所以不用删除")
+            else:
+                del_homes(file_path)
+    except Exception as e:
+        print(f"删除失败：{e}")
 
 
 def put_homes():
@@ -99,4 +96,4 @@ if __name__ == '__main__':
     g = Github(GIT_TOKEN)
     repo = g.get_repo(GIT_REPO)
     # put_homes()
-    del_homes()
+    del_homes("")
