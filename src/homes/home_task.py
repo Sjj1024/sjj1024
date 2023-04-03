@@ -328,7 +328,7 @@ def get_app_files():
     三个地址:
     github:https://api.github.com/repos/Sjj1024/Sjj1024/contents/.github/hubsql/appHuijia.txt
     博客园:https://www.cnblogs.com/sdfasdf/p/16965757.html
-    CSDN:https://xiaoshen.blog.csdn.net/article/details/129345827
+    CSDN:https://blog.csdn.net/weixin_44786530/article/details/129348208
     """
     app_info = {
         "name": "Android1024",
@@ -722,7 +722,7 @@ def run():
     Android三个地址:
     github:https://api.github.com/repos/{GIT_REPO}/contents/.github/hubsql/appHuijia.txt
     博客园:https://www.cnblogs.com/sdfasdf/p/16965757.html
-    CSDN:https://xiaoshen.blog.csdn.net/article/details/129345827
+    CSDN:https://blog.csdn.net/weixin_44786530/article/details/129348208
     
     iPhone插件内容
     github:https://api.github.com/repos/{GIT_REPO}/contents/.github/hubsql/iphoneHuijia.txt
