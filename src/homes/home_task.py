@@ -670,6 +670,7 @@ def save_encode_content_html(app_type, content):
         with open(release_path, "w", encoding="utf-8") as res:
             res.write(content_html)
         # 同步到github中
+        release_path = release_path.replace("src/homes/", "")
         put_github_file(release_path, content_html)
 
 
