@@ -437,7 +437,7 @@ def run():
     tang.cookie = cookie
     tang.user_agent = user_agent
     tang.get_user_info()
-    tang.start_commit_one()
+    # tang.start_commit_one()
     qiandao = tang.has_signed()
     if qiandao == "今日未签到，点击签到":
         # tang.start_web_sign()
@@ -450,12 +450,12 @@ def run():
 
 if __name__ == '__main__':
     if len(sys.argv) <= 1:
-        name = "LCJ1275"
-        cookie = "cPNj_2132_saltkey=pRGuETKZ; cPNj_2132_lastvisit=1673947874; cPNj_2132_lastfp=ff63697e01d406ee4e4f20a439084855; cPNj_2132_ulastactivity=1673951520%7C0; cPNj_2132_auth=d9f28KJ95Omo%2BEJQ38UJPM%2BAmd2mMmABXyKdsu10mfEjnuPqnknFCgadBlDel4wvNbbjeQT5QNLGvDxWpGXtoUeRmLU; cPNj_2132_lastcheckfeed=422246%7C1673951520; cPNj_2132_sid=0; cPNj_2132_nofavfid=1; cPNj_2132_sendmail=1; PHPSESSID=qk7vnd0dr5ldpf1439srof848r; cPNj_2132_lastact=1673951855%09index.php%09"
-        user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+        name = "无敌小浪货"
+        cookie = "cPNj_2132_saltkey=LYgJ7Ts5; _safe=vqd37pjm4p5uodq339yzk6b7jdt6oich; cPNj_2132_lastvisit=1679708908; cPNj_2132_atarget=1; cPNj_2132_lastfp=66abe79b56fe4d1db0defa055279da8b; cPNj_2132_auth=c1fdCTCyxO5zbM52EYUfgKrC8SYmJzAQcNrBvmRwdllFLF4r%2B%2Fp1kEH%2F0PiW8iXpYz1kFXnqnB4GUa6Ky7%2BBDqeHDbs; cPNj_2132_smile=1D1; cPNj_2132_nofavfid=1; cPNj_2132_resendemail=1679713392; PHPSESSID=7djspibh5jpi4171lgd9v626pt; cPNj_2132_secqaaqSAmbi0=5813.11e7d3d12c2ffefbf9; cPNj_2132_home_diymode=1; cPNj_2132_sid=0; cPNj_2132_st_t=446206%7C1680696197%7Ca5408b579d6983a3ecd53f857c7fc017; cPNj_2132_forum_lastvisit=D_95_1680696197; cPNj_2132_visitedfid=95D155D143D96D150D142; cPNj_2132_st_p=446206%7C1680696207%7C704b0e8c270d019db2e2dbed088c7ca9; cPNj_2132_viewid=tid_1247942; cPNj_2132_ulastactivity=1680703122%7C0; cPNj_2132_lastact=1680703123%09home.php%09spacecp; cPNj_2132_checkpm=1"
+        user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
     else:
         name = sys.argv[1]
         cookie = sys.argv[2]
         user_agent = sys.argv[3]
-    source_url = "https://zxfdsfdsf.online"
+    source_url = "https://www.hghg58.com/"
     run()

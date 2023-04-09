@@ -347,7 +347,7 @@ def get_app_files():
         "more_urls": "1024回家APP：https://wwd.lanzoue.com/iQeC00912epc，\n浏览器插件：https://wwd.lanzoue.com/iQeC00912epc",
         # 更多推荐页面
         "more_html": url_to_android_html(
-            """<span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问，APP版</span>"""),
+            """<span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问，大量收购草榴和98堂邀请码，可邮件联系合作：1024xiaoshen@gmail.com</span>"""),
         "headers": "/index.php?u=628155&ext=9a511;/index.php?u=52993&ext=99ea2;/index.php?u=595394&ext=c180e;/index.php?u=384581&ext=26585;/index.php?u=627793&ext=09126",
         "about": f"""
          1.如果你想感谢我，请合理给我打赏吧，<br>我的比特币账户：<span style="padding: 0 5px 0 2px;word-wrap: break-word;">3HJTSzf2GL7Bj8r7HakUNS1G9jauemk1Lt</span><br>我的以太坊账户：<span style="padding: 0 5px 0 2px;word-wrap: break-word;">0xb9061992ea948e247a4542209c14c5e7ea79afc6</span><br>
@@ -357,7 +357,7 @@ def get_app_files():
          3.1024回家Windows桌面端：待发布<a href="https://wwlu.lanzoum.com/iUhPX0p8fm6h" style="text-decoration: none;" > </a><br>
          4.1024回家Macbook桌面端：开发中...<a href="https://wwlu.lanzoum.com/iUhPX0p8fm6h" style="text-decoration: none;" > </a><br>
          5.不要用UC/夸克等垃圾国产浏览器，不然你会发现很多网站都会被屏蔽，并且监听你的浏览信息，非常可拍！<br>
-         6.本APP永久停止更新！愿你安好！
+         6.本APP永久停止更新！愿你安好！大量收购草榴和98堂邀请码，可邮件联系合作：1024xiaoshen@gmail.com
         """,
         "header_ms": "这里总有你想看的吧",  # 这是app菜单栏头部
         "header_url": "",  # 点击头部显示的跳转
@@ -585,7 +585,7 @@ def get_chrome_files():
                 }
             },
             # 导航链接更新时间
-            "guide_time":  f"""地址更新时间：{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}""",
+            "guide_time": f"""地址更新时间：{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}""",
             # 更多导航列表
             "navigation": cate_list
         }
@@ -698,6 +698,30 @@ def put_github_file(path, content, commit=""):
         print(res)
 
 
+def print_git_path():
+    print(f"""
+    Android三个地址:
+    github:https://api.github.com/repos/{GIT_REPO}/contents/.github/hubsql/appHuijia.txt
+    博客园:https://www.cnblogs.com/sdfasdf/p/16965757.html
+    CSDN:https://blog.csdn.net/weixin_44786530/article/details/129348208
+
+    iPhone插件内容
+    github:https://api.github.com/repos/{GIT_REPO}/contents/.github/hubsql/iphoneHuijia.txt
+    博客园:https://www.cnblogs.com/sdfasdf/p/16966745.html
+    CSDN:https://xiaoshen.blog.csdn.net/article/details/129709226
+
+    Chrome三个地址:
+    github:https://api.github.com/repos/{GIT_REPO}/contents/.github/hubsql/chromHuijia.txt
+    博客园:https://www.cnblogs.com/sdfasdf/p/15115801.html
+    CSDN:https://xiaoshen.blog.csdn.net/article/details/129345827
+
+    DeskTop三个地址:
+    github:https://api.github.com/repos/{GIT_REPO}/contents/.github/hubsql/deskHuijia.txt
+    博客园:https://www.cnblogs.com/sdfasdf/p/16101765.html
+    CSDN:https://xiaoshen.blog.csdn.net/article/details/129388703
+    """)
+
+
 def run():
     print("开始获取地址")
     # 获取热门地址
@@ -718,27 +742,7 @@ def run():
         put_github_file(file_path, content)
     # 同步readme文档
     put_readme_file(app_file)
-    print(f"""
-    Android三个地址:
-    github:https://api.github.com/repos/{GIT_REPO}/contents/.github/hubsql/appHuijia.txt
-    博客园:https://www.cnblogs.com/sdfasdf/p/16965757.html
-    CSDN:https://blog.csdn.net/weixin_44786530/article/details/129348208
-    
-    iPhone插件内容
-    github:https://api.github.com/repos/{GIT_REPO}/contents/.github/hubsql/iphoneHuijia.txt
-    博客园:https://www.cnblogs.com/sdfasdf/p/16966745.html
-    CSDN:https://xiaoshen.blog.csdn.net/article/details/129709226
-    
-    Chrome三个地址:
-    github:https://api.github.com/repos/{GIT_REPO}/contents/.github/hubsql/chromHuijia.txt
-    博客园:https://www.cnblogs.com/sdfasdf/p/15115801.html
-    CSDN:https://xiaoshen.blog.csdn.net/article/details/129345827
-    
-    DeskTop三个地址:
-    github:https://api.github.com/repos/{GIT_REPO}/contents/.github/hubsql/deskHuijia.txt
-    博客园:https://www.cnblogs.com/sdfasdf/p/16101765.html
-    CSDN:https://xiaoshen.blog.csdn.net/article/details/129388703
-    """)
+    print_git_path()
 
 
 if __name__ == '__main__':
