@@ -507,7 +507,7 @@ def get_chrome_files():
             # 过滤广告或者添加广告配置
             "filter_all": {
                 "doumei": {
-                    "filter": False,
+                    "filter": True,
                     "down": """<a href="https://www.baidu.com/">百度一下</a>"""
                 },
                 "caoliu": {
