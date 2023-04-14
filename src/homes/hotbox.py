@@ -77,6 +77,18 @@ hot_urls = {
             "url": "https://bbs23.scxbf.com/2048/?mmxkbe=ozxy22",
             "icon": ""},
         {
+            "title": "BT电影1",
+            "url": "https://www.btnull.org",
+            "icon": ""},
+        {
+            "title": "BT电影2",
+            "url": "https://www.btnull.in/",
+            "icon": ""},
+        {
+            "title": "BT电影3",
+            "url": "https://www.btnull.to",
+            "icon": ""},
+        {
             "title": "1024抖妹",
             "url": "https://v.nrzj.vip/",
             "icon": ""},
