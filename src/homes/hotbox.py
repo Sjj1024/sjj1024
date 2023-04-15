@@ -25,6 +25,10 @@ hot_urls = {
             "url": "https://0128.workgreat11.live/index.php",
             "icon": ""},
         {
+            "title": "91Pr视频3",
+            "url": "https://91p263.com",
+            "icon": ""},
+        {
             "title": "91Pr图片",
             "url": "https://t0302.91p01.app/index.php",
             "icon": ""},
