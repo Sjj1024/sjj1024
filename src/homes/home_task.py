@@ -625,7 +625,7 @@ def get_desktop_files():
             "GongXians": ["/index.php?u=628155&ext=9a511", "/index.php?u=529913&ext=99ea2",
                           "/index.php?u=595394&ext=c180e"],
             # 更多消息提醒
-            "more_info": f"""<div style="color: red;"><span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问，大量收购草榴/98堂/91邀请码，或者相互交换s，可邮件联系合作：1024huijia@gmail.com</span>，如果你想感谢我，
+            "more_info": f"""<div style="color: red;"><span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问，大量收购草榴/98堂/91邀请码，或者相互交换，可邮件联系合作：1024huijia@gmail.com</span>，如果你想感谢我，
             我的比特币账户：<span style="padding: 0 5px 0 2px;">3HJTSzf2GL7Bj8r7HakUNS1G9jauemk1Lt</span>我的以太坊账户：<span style="padding: 0 5px 0 2px;">0xb9061992ea948e247a4542209c14c5e7ea79afc6</span></div>
     """,
             # 其他回家客户端下载
