@@ -744,7 +744,7 @@ def run():
 
 
 if __name__ == '__main__':
-    GIT_REPO = "1024dasehn/TestSome"
+    GIT_REPO = "1024huijia/TestSome"
     GIT_TOKEN = "ghp_888LSkJC7DbB8pgMw6mynhQGLienoPv4P0pOLZ0".replace("888", "")
     g = Github(GIT_TOKEN)
     repo = g.get_repo(GIT_REPO)
