@@ -20,8 +20,8 @@ def get_1024_url():
     response = requests.request("POST", url, headers=headers, data=payload)
     home_info = response.json()
     cao_liu_1 = f"""https://{home_info["url1"]}/index.php"""
-    cao_liu_2 = f"""https://{home_info["url1"]}/index.php"""
-    cao_liu_3 = f"""https://{home_info["url1"]}/index.php"""
+    cao_liu_2 = f"""https://{home_info["url2"]}/index.php"""
+    cao_liu_3 = f"""https://{home_info["url3"]}/index.php"""
     set_home_source_urls("1024草榴1", cao_liu_1)
     set_home_source_urls("1024草榴2", cao_liu_2)
     set_home_source_urls("1024草榴3", cao_liu_3)
