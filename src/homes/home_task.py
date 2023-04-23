@@ -227,6 +227,52 @@ def url_to_android_html(more_info):
     return daohang_html_res
 
 
+# 将热门推荐保存为html页面让web网页使用
+def url_to_web_html(more_info):
+    # 先将热门导航里面的内容通过模板写入到daohang.html中
+    """
+      <div class="tabBox">
+        <h3 class="tabTitle">热门推荐</h3>
+        <div class="aBox">
+          <a href="https://www.baidu.com/" class="alink" target="_blank">百度一下</a>
+        </div>
+      </div>
+    """
+    # 提示的内容
+    guide_div_str = f"""<div class="guide-time">地址更新时间：{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}</div>"""
+    tips_div_str = f"""<div class="tips">{more_info}</div>"""
+    tab_box_list = [guide_div_str, tips_div_str]
+    cate_lists = get_cate_list()
+    for key, val in cate_lists.items():
+        # print(f"{key} : {val}")
+        title = val["title"]
+        data_url = val["data"]
+        a_box_list = []
+        for url_a in data_url:
+            a_template = f"""<a href="{url_a["url"]}" class="alink" target="_blank">{url_a["title"]}</a>\n"""
+            a_box_list.append(a_template)
+        a_box_strs = "".join(a_box_list)
+        tab_box_template = f"""<div class="tabBox">
+            <h3 class="tabTitle">{title}</h3>
+            <div class="aBox">
+              {a_box_strs}
+            </div>
+          </div>"""
+        tab_box_list.append(tab_box_template)
+    tab_box_strs = "".join(tab_box_list)
+    daohang_html = read_daohang_html("daohang_web_template.html")
+    daohang_html_res = daohang_html.replace("templatePalace", tab_box_strs)
+    web_release_path = "src/homes/release_html/daohang_web_releases.html"
+    with open(web_release_path, "w", encoding="utf-8") as f:
+        f.write(daohang_html_res)
+    # 同步到github，用于测试预览效果是否正确
+    # 同步到github中
+    web_release_path = web_release_path.replace("src/homes/", "")
+    put_github_file(web_release_path, daohang_html_res)
+    return daohang_html_res
+
+
+
 # 从热门推荐里面能获取指定的url
 def get_home_from_urls(key):
     hot_homes = hot_urls.get("data")
@@ -341,7 +387,7 @@ def get_app_files():
         "message": "这是最新版本，增加了返回按钮",
         "message_url": "",
         "interval": 10,  # 刷贡献的时间间隔/每多少小时刷一次
-        "brush_rate": 100,  # 刷贡献的百分比，越大越容易触发刷
+        "brush_rate": 10,  # 刷贡献的百分比，越大越容易触发刷
         "brush_all": True,  # 是否全部刷，只要是headers里面的，就都刷？
         # 分享的内容
         "more_urls": "1024回家APP：https://wwd.lanzoue.com/iQeC00912epc，\n浏览器插件：https://wwd.lanzoue.com/iQeC00912epc",
@@ -422,8 +468,8 @@ def get_iphone_files():
             "url": "https://www.jsons.cn/base64/"
         },
         "data": {
-            "interval": 1,  # 刷贡献速率，几个小时刷一次
-            "brush_rate": 100,  # 刷贡献的百分比，越大越容易触发开刷
+            "interval": 10,  # 刷贡献速率，几个小时刷一次
+            "brush_rate": 30,  # 刷贡献的百分比，越大越容易触发开刷
             "brush_all": False,  # 是否全部刷，只要是headers里面的，就都刷？
             "show_hotUrl": True,  # 是否在热门推荐的URl地址中展示
             # 刷贡献的头部，三个地址平均分布一个
@@ -474,8 +520,8 @@ def get_chrome_files():
             "url": "http://www.jsons.cn/base64/"
         },
         "data": {
-            "interval": 1,  # 展示在草榴URL上的贡献链接
-            "brush_rate": 100,  # 刷贡献的百分比，越大越容易触发刷
+            "interval": 10,  # 展示在草榴URL上的贡献链接
+            "brush_rate": 10,  # 刷贡献的百分比，越大越容易触发刷
             "brush_all": False,  # 是否全部刷，只要是headers里面的，就都刷？
             "show_hotUrl": True,  # 是否在热门推荐的URl地址中展示
             # 刷贡献的头部，三个地址平均分布一个
@@ -617,8 +663,8 @@ def get_desktop_files():
             "url": "http://www.jsons.cn/base64/"
         },
         "data": {
-            "interval": 1,  # 展示在草榴URL上的贡献链接
-            "brush_rate": 100,  # 刷贡献的百分比，越大越容易触发刷
+            "interval": 10,  # 展示在草榴URL上的贡献链接
+            "brush_rate": 10,  # 刷贡献的百分比，越大越容易触发刷
             "brush_all": False,  # 是否全部刷，只要是headers里面的，就都刷？
             "show_hotUrl": True,  # 是否在热门推荐的URl地址中展示
             # 刷贡献的头部，三个地址平均分布一个

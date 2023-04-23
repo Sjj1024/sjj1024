@@ -1,6 +1,6 @@
 ### 简单说明  
 fast find me，快速找到回家的路，持续更新中......  
-加QQ：2950525265 或者Tg：https://t.me/xiaoshen1024 或者邮箱：1024xiaoshen@gmail.com 可以快速获得邀请码
+加QQ：2950525265 或者Tg：https://t.me/xiaoshen1024 或者邮箱：1024huijia@gmail.com 可以快速获得邀请码
 
 
 ### 1024回家安卓版  
