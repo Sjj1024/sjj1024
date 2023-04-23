@@ -247,12 +247,11 @@ def url_to_web_html(more_info):
         <h3 class="tabTitle tabTop">1024回家Web版</h3>
         <div class="testBox">
             <div class="btnBox">
-                <button class="btn" id="android">安卓APP</button>
-                <button class="btn" id="windows">Windows</button>
-                <button class="btn" id="macbook">Mac电脑</button>
-                <button class="btn" id="iphone">iPhone版</button>
-                <button class="btn" id="yongjiu">永久地址</button>
-                <button class="btn" id="share">分享应用</button>
+                <a class="btn" id="android" href="https://www.google.com/" target="_blank">安卓APP</a>
+                <a class="btn" id="windows" href="https://www.google.com/" target="_blank">Windows</a>
+                <a class="btn" id="macbook" href="https://www.google.com/" target="_blank">Mac电脑</a>
+                <a class="btn" id="iphone" href="https://www.google.com/" target="_blank">iPhone版</a>
+                <a class="btn" id="yongjiu" href="https://www.google.com/" target="_blank">永久地址</a>
             </div>
             {guide_div_str}
             {tips_div_str}
