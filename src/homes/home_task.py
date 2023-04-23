@@ -784,6 +784,8 @@ def run():
         # print(f"{name} 加密后的数据是: {content}")
         save_encode_content_html(name, content)
         put_github_file(file_path, content)
+    # 同步web端发布
+    url_to_web_html("""<span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问，大量收购草榴/98堂/91邀请码，或投稿送码/或相互交换。可邮件联系合作：1024huijia@gmail.com</span>""")
     # 同步readme文档
     put_readme_file(app_file)
     print_git_path()
