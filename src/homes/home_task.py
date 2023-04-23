@@ -238,10 +238,28 @@ def url_to_web_html(more_info):
         </div>
       </div>
     """
+    # 头部内容
     # 提示的内容
     guide_div_str = f"""<div class="guide-time">地址更新时间：{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}</div>"""
     tips_div_str = f"""<div class="tips">{more_info}</div>"""
-    tab_box_list = [guide_div_str, tips_div_str]
+    header_guide = f"""
+    <div class="tabBox">
+        <h3 class="tabTitle tabTop">1024回家Web版</h3>
+        <div class="testBox">
+            <div class="btnBox">
+                <button class="btn" id="android">安卓APP</button>
+                <button class="btn" id="windows">Windows</button>
+                <button class="btn" id="macbook">Mac电脑</button>
+                <button class="btn" id="iphone">iPhone版</button>
+                <button class="btn" id="yongjiu">永久地址</button>
+                <button class="btn" id="share">分享应用</button>
+            </div>
+            {guide_div_str}
+            {tips_div_str}
+        </div>
+    </div>
+    """
+    tab_box_list = [header_guide]
     cate_lists = get_cate_list()
     for key, val in cate_lists.items():
         # print(f"{key} : {val}")
