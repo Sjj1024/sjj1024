@@ -29,10 +29,18 @@
         }
 
         .tabBox {
-            margin-bottom: 2vh;
-            border-radius: 5px;
+            margin-bottom: 10px;
+            font-weight: 400;
+            border-radius: 4px;
+            background-color: #fff;
+            overflow: hidden;
+            color: #303133;
+            transition: 0.3s;
             box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
-            box-sizing: border-box;
+        }
+
+        .testBox {
+            padding: 1px 20px;
         }
 
         .tabTitle {
@@ -64,6 +72,64 @@
             padding-right: 2%;
             margin-bottom: 8px;
             text-decoration: none;
+        }
+
+        .btn {
+            display: inline-block;
+            white-space: nowrap;
+            cursor: pointer;
+            background: #fff;
+            border: 1px solid #dcdfe6;
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            box-sizing: border-box;
+            outline: none;
+            margin: 0;
+            transition: 0.1s;
+            font-weight: 600;
+            padding: 3px 5px;
+            font-size: 13px;
+            border-radius: 3px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            transition: 0.1s;
+            color: #409eff;
+            border-color: #c6e2ff;
+            background-color: #ecf5ff;
+        }
+
+        @media (min-width: 1200px) {
+            .alink {
+                width: 10%;
+            }
+        }
+
+        @media (max-width: 1200px) {
+            .alink {
+                width: 14%;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .alink {
+                width: 15%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .alink {
+                width: 20%;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .alink {
+                width: 31%;
+            }
         }
     </style>
 </head>
