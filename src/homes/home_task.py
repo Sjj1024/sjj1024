@@ -289,7 +289,6 @@ def url_to_web_html(more_info):
     return daohang_html_res
 
 
-
 # 从热门推荐里面能获取指定的url
 def get_home_from_urls(key):
     hot_homes = hot_urls.get("data")
@@ -506,7 +505,9 @@ def get_iphone_files():
             "share": "老司机来了：http://www.jsons.cn/base64/",
         },
         # 其中的内容是消息提醒内容
-        "content": url_to_iphone("""<span>提示: 部分网站可能需要VPN翻墙后访问，大量收购草榴/98堂/91邀请码，或投稿送码/或相互交换，可邮件联系合作：1024huijia@gmail.com</span>""", True)
+        "content": url_to_iphone(
+            """<span>提示: 部分网站可能需要VPN翻墙后访问，大量收购草榴/98堂/91邀请码，或投稿送码/或相互交换。可邮件联系合作：1024huijia@gmail.com</span>""",
+            True)
     }
     return iphone_home
 
@@ -550,7 +551,7 @@ def get_chrome_files():
                            "91ImgCookies": "CzG_auth",
                            "98cookies": "cPNj_2132_auth"},
             # 更多消息提醒
-            "more_info": f"""<div style="color: red;"><span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问，大量收购草榴/98堂/91邀请码，或投稿送码/或相互交换，可邮件联系合作：1024huijia@gmail.com</span>，如果你想感谢我，
+            "more_info": f"""<div style="color: red;"><span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问，大量收购草榴/98堂/91邀请码，或投稿送码/或相互交换。可邮件联系合作：1024huijia@gmail.com</span>，如果你想感谢我，
     我的比特币账户：<span style="padding: 0 5px 0 2px;">3HJTSzf2GL7Bj8r7HakUNS1G9jauemk1Lt</span>我的以太坊账户：<span style="padding: 0 5px 0 2px;">0xb9061992ea948e247a4542209c14c5e7ea79afc6</span></div>
             """,
             # 其他回家客户端下载
@@ -688,7 +689,7 @@ def get_desktop_files():
             "GongXians": ["/index.php?u=628155&ext=9a511", "/index.php?u=529913&ext=99ea2",
                           "/index.php?u=595394&ext=c180e"],
             # 更多消息提醒
-            "more_info": f"""<div style="color: red;"><span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问，大量收购草榴/98堂/91邀请码，或投稿送码/或相互交换，可邮件联系合作：1024huijia@gmail.com</span>，如果你想感谢我，
+            "more_info": f"""<div style="color: red;"><span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问，大量收购草榴/98堂/91邀请码，或投稿送码/或相互交换。可邮件联系合作：1024huijia@gmail.com</span>，如果你想感谢我，
             我的比特币账户：<span style="padding: 0 5px 0 2px;">3HJTSzf2GL7Bj8r7HakUNS1G9jauemk1Lt</span>我的以太坊账户：<span style="padding: 0 5px 0 2px;">0xb9061992ea948e247a4542209c14c5e7ea79afc6</span></div>
     """,
             # 其他回家客户端下载
@@ -802,11 +803,17 @@ def run():
         save_encode_content_html(name, content)
         put_github_file(file_path, content)
     # 同步web端发布
-    url_to_web_html("""<span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问，大量收购草榴/98堂/91邀请码，或投稿送码/或相互交换。可邮件联系合作：1024huijia@gmail.com</span>""")
+    url_to_web_html(
+        """<span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问，大量收购草榴/98堂/91邀请码，或投稿送码/或相互交换。可邮件联系合作：1024huijia@gmail.com</span>""")
     # 同步readme文档
     put_readme_file(app_file)
     print_git_path()
 
+
+"""
+提示: 部分网站可能需要VPN翻墙后访问，大量收购草榴/98堂/91邀请码，或投稿送码/或相互交换。可邮件联系合作：1024huijia@gmail.com
+提示: 部分网站可能需要VPN翻墙后访问
+"""
 
 if __name__ == '__main__':
     GIT_REPO = "1024huijia/TestSome"
