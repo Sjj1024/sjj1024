@@ -284,7 +284,7 @@ def url_to_web_html(more_info):
         f.write(daohang_html_res)
     # 同步到github，用于测试预览效果是否正确
     # 同步到github中
-    web_release_path = web_release_path.replace("src/homes/", "")
+    web_release_path = "web.html"
     put_github_file(web_release_path, daohang_html_res)
     return daohang_html_res
 
