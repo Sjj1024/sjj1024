@@ -4,7 +4,7 @@
 加QQ：2950525265 或者Tg：https://t.me/xiaoshen1024 或者邮箱：1024huijia@gmail.com 可以快速获得邀请码
 
 ### 所有合集下载包：  
-蓝奏云：<https://wwlu.lanzoum.com/it4Ho0un83fa>  
+蓝奏云：<https://wwlu.lanzoum.com/iPZc70uo1q5c>  
 Git云：<https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip>
   
 ### 1024回家安卓版  
