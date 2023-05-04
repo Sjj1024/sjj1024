@@ -745,17 +745,19 @@ def put_readme_file(app_file):
         readme_content = f.read()
         readme_content = readme_content.replace("caoliu", app_file.get("caoliu_url1"))
         readme_content = readme_content.replace("91video", app_file.get("porn_video_url"))
+        print("put_github_file README...")
         put_github_file("README.md", readme_content)
         # 同步GoHome仓库的Readme文件
+        print("GOHOME README...")
         GIT_HOME = "1024huijia/GoHome"
         g_home = Github(GIT_TOKEN)
         go_home = g_home.get_repo(GIT_HOME)
         try:
             res = go_home.get_contents("README.md")
             res = go_home.update_file("README.md", "更新地址内容", readme_content, res.sha)
-            print(f"更新文件结果:{res}")
+            print(f"GOHOME更新文件结果:{res}")
         except Exception:
-            print("文件不存在,开始创建...")
+            print("GOHOME文件不存在,开始创建...")
             res = go_home.create_file("README.md", "添加一个新文件", readme_content)
             print(res)
 
