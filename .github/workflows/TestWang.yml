@@ -3,6 +3,8 @@ name: TestInternet
 on:
   schedule:
     - cron: '0 */6 * * *'
+  push:
+    branches: [master] #main分支在push的时候会触发
   # 手动触发一个工作流
   workflow_dispatch:
     inputs:
