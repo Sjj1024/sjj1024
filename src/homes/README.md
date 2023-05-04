@@ -4,7 +4,7 @@
 加QQ：2950525265 或者Tg：https://t.me/xiaoshen1024 或者邮箱：1024huijia@gmail.com 可以快速获得邀请码
 
 ### 所有合集下载包：  
-蓝奏云：<https://wwlu.lanzoum.com/it4Ho0un83fa>
+蓝奏云：<https://wwlu.lanzoum.com/it4Ho0un83fa>  
 Git云：<https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip>
 
 ### 1024回家安卓版  
@@ -22,7 +22,7 @@ mac安装包：
 蓝奏云：<https://wwlu.lanzoum.com/iNtOg0tl448h>  
 Git云：<https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg>
 桌面版界面：
-![](https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/image.2uogc2e021s0.webp)
+![](https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/image.2uogc2e021s0.webp)  
 
 
 ### 1024回家iPhone版  
@@ -35,7 +35,7 @@ Chrome插件安装包：
 蓝奏云：<https://wwlu.lanzoum.com/iFf8C0tl449i>  
 Git云：<https://1024huijia.github.io/TestSome/sources/1024回家ChromeV0.1.zip>  
 Chrome插件界面：
-![](https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/image.5j7g1863qw00.webp)
+![](https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/image.5j7g1863qw00.webp)  
 
 
 ### 1024回家油猴版  
@@ -43,7 +43,7 @@ Chrome插件界面：
 蓝奏云：<https://wwlu.lanzoum.com/ik0TD0tl9cjg>  
 Git云：<https://1024huijia.github.io/TestSome/sources/1024回家TmV1.js>  
 油猴版本界面：
-![](https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/image.5j7g1863qw00.webp)
+![](https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/image.5j7g1863qw00.webp)  
 
 
 ### 1024回家Github临时版：非常不稳定，强烈建议下载对应的客户端
