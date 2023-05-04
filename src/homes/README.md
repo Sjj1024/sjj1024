@@ -10,7 +10,7 @@ Git云：<https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip>
 ### 1024回家安卓版  
 安卓安装包：  
 蓝奏云：<https://wwlu.lanzoum.com/i3FcF0umzg2b>  
-Git云：<https://1024huijia.github.io/TestSome/sources/1024回家230504-3.1.apk>  
+Git云：<https://1024huijia.github.io/TestSome/sources/1024回家230504-3.1.apk>    
 安卓界面：
 ![](https://1024huijia.github.io/QingChunMeizi/androidhome.2i7k11inud40.webp)
   
@@ -24,7 +24,7 @@ Git云：<https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.d
 桌面版界面：
 ![](https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/image.2uogc2e021s0.webp)  
 
-  
+    
 ### 1024回家iPhone版  
 iPhone安装包：需付费99元即可使用   
 iPhone界面：
