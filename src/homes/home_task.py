@@ -250,7 +250,7 @@ def url_to_web_html(more_info):
                 <a class="btn" id="android" href="https://1024huijia.github.io/TestSome/sources/1024回家230505-3.1.apk" target="_blank">安卓APP</a>
                 <a class="btn" id="windows" href="https://1024huijia.github.io/TestSome/sources/1024回家Win0.0.1_x64_zh-CN.msi" target="_blank">Windows</a>
                 <a class="btn" id="macbook" href="https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg" target="_blank">Mac电脑</a>
-                <a class="btn" id="iphone" href="https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/iPhoneHuijia2.4t05rnrwiku0.webp" target="_blank">iPhone版</a>
+                <a class="btn" id="iphone" href="https://1024huijia.github.io/QingChunMeizi/iPhoneHuijia2.4t05rnrwiku0.webp" target="_blank">iPhone版</a>
                 <a class="btn" id="yongjiu" href="https://github.com/1024huijia/GoHome" target="_blank">永久地址</a>
             </div>
             {guide_div_str}
@@ -560,7 +560,7 @@ def get_chrome_files():
             "android": "https://1024huijia.github.io/TestSome/sources/1024回家230505-3.1.apk",
             "windows": "https://1024huijia.github.io/TestSome/sources/1024回家Win0.0.1_x64_zh-CN.msi",
             "macbook": "https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg",
-            "iphone": "https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/iPhoneHuijia2.4t05rnrwiku0.webp",
+            "iphone": "https://1024huijia.github.io/QingChunMeizi/iPhoneHuijia2.4t05rnrwiku0.webp",
             "share": "老司机来了：https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip",
             # 购买邀请码功能: 后面再做，先做桌面端
             "open_pay": {
@@ -698,7 +698,7 @@ def get_desktop_files():
             "android": "https://1024huijia.github.io/TestSome/sources/1024回家230505-3.1.apk",
             "windows": "https://1024huijia.github.io/TestSome/sources/1024回家Win0.0.1_x64_zh-CN.msi",
             "macbook": "https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg",
-            "iphone": "https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/iPhoneHuijia2.4t05rnrwiku0.webp",
+            "iphone": "https://1024huijia.github.io/QingChunMeizi/iPhoneHuijia2.4t05rnrwiku0.webp",
             "share": "老司机带你回家：https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip",
             # 购买邀请码功能: 后面再做，先做桌面端
             "open_pay": {
