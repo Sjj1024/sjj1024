@@ -4,7 +4,7 @@
 使用两个草榴邀请码/98邀请码/91邀请码联系我邮件：1024huijia@gmail.com，可以拉你进入软件开发交流群，群里可以提问题，可以提需求，可以交流等等。
 加QQ：2950525265 或者Tg：https://t.me/xiaoshen1024 或者邮箱：1024huijia@gmail.com 可以快速获得邀请码
 
-### 1024回家所有平台安装包下载：  
+### 1024回家所有平台(安卓/iPhone/windows/mac/浏览器插件/油猴脚本等)安装包下载：  
 蓝奏云：<https://wwlu.lanzoum.com/iPZc70uo1q5c>  
 Git云：<https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip>
   
@@ -16,12 +16,12 @@ Git云：<https://1024huijia.github.io/TestSome/sources/1024回家230504-3.1.apk
 ![](https://1024huijia.github.io/QingChunMeizi/androidhome.2i7k11inud40.webp)
   
 ### 1024回家桌面版  
-windows安装包：  
+#### windows安装包：  
 蓝奏云：<https://wwlu.lanzoum.com/iRQCb0tl5zta>  
-Git云：<https://1024huijia.github.io/TestSome/sources/1024回家Win0.0.1_x64_zh-CN.msi>
-mac安装包：  
+Git云：<https://1024huijia.github.io/TestSome/sources/1024回家Win0.0.1_x64_zh-CN.msi>    
+#### mac安装包：  
 蓝奏云：<https://wwlu.lanzoum.com/iNtOg0tl448h>  
-Git云：<https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg>  
+Git云：<https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg>    
 桌面版界面：
 ![](https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/image.2uogc2e021s0.webp)  
 

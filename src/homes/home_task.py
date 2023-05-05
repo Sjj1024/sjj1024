@@ -247,11 +247,11 @@ def url_to_web_html(more_info):
         <h3 class="tabTitle tabTop">1024回家Web版</h3>
         <div class="testBox">
             <div class="btnBox">
-                <a class="btn" id="android" href="https://www.google.com/" target="_blank">安卓APP</a>
-                <a class="btn" id="windows" href="https://www.google.com/" target="_blank">Windows</a>
-                <a class="btn" id="macbook" href="https://www.google.com/" target="_blank">Mac电脑</a>
-                <a class="btn" id="iphone" href="https://www.google.com/" target="_blank">iPhone版</a>
-                <a class="btn" id="yongjiu" href="https://www.google.com/" target="_blank">永久地址</a>
+                <a class="btn" id="android" href="https://wwlu.lanzoum.com/i3FcF0umzg2b" target="_blank">安卓APP</a>
+                <a class="btn" id="windows" href="https://wwlu.lanzoum.com/iRQCb0tl5zta" target="_blank">Windows</a>
+                <a class="btn" id="macbook" href="https://wwlu.lanzoum.com/iNtOg0tl448h" target="_blank">Mac电脑</a>
+                <a class="btn" id="iphone" href="https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/iPhoneHuijia2.4t05rnrwiku0.webp" target="_blank">iPhone版</a>
+                <a class="btn" id="yongjiu" href="https://github.com/1024huijia/GoHome" target="_blank">永久地址</a>
             </div>
             {guide_div_str}
             {tips_div_str}
@@ -406,18 +406,19 @@ def get_app_files():
         "brush_rate": 10,  # 刷贡献的百分比，越大越容易触发刷
         "brush_all": True,  # 是否全部刷，只要是headers里面的，就都刷？
         # 分享的内容
-        "more_urls": "1024回家APP：https://wwd.lanzoue.com/iQeC00912epc，\n浏览器插件：https://wwd.lanzoue.com/iQeC00912epc",
+        "more_urls": "1024回家：https://wwlu.lanzoum.com/iPZc70uo1q5c",
         # 更多推荐页面
         "more_html": url_to_android_html(
             """<span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问</span>"""),
         "headers": "/index.php?u=628155&ext=9a511;/index.php?u=52993&ext=99ea2;/index.php?u=595394&ext=c180e;/index.php?u=384581&ext=26585;/index.php?u=627793&ext=09126",
         "about": f"""
          1.如果你想感谢我，请合理打赏吧，<br>我的比特币账户：<span style="padding: 0 5px 0 2px;word-wrap: break-word;">3HJTSzf2GL7Bj8r7HakUNS1G9jauemk1Lt</span><br>我的以太坊账户：<span style="padding: 0 5px 0 2px;word-wrap: break-word;">0xb9061992ea948e247a4542209c14c5e7ea79afc6</span><br>
-         2.1024回家浏览器插件：待发布<a href="https://wwlu.lanzoum.com/iUhPX0p8fm6h" style="text-decoration: none;" > </a><br>
-         3.1024回家油猴脚本：待发布<br>
-         4.1024回家Windows桌面端：待发布<a href="https://wwlu.lanzoum.com/iUhPX0p8fm6h" style="text-decoration: none;" > </a><br>
-         5.1024回家Macbook桌面端：开发中...<a href="https://wwlu.lanzoum.com/iUhPX0p8fm6h" style="text-decoration: none;" > </a><br>
-         6.本APP永久停止更新！愿你安好！
+         2.1024回家浏览器插件：<a href="https://wwlu.lanzoum.com/iFf8C0tl449i" style="text-decoration: none;" >1024回家插件</a><br>
+         3.1024回家油猴脚本：<a href="https://wwlu.lanzoum.com/ik0TD0tl9cjg" style="text-decoration: none;" >1024回家脚本</a><br>
+         4.1024回家Windows桌面端：<a href="https://1024huijia.github.io/TestSome/sources/1024回家Win0.0.1_x64_zh-CN.msi" style="text-decoration: none;" >1024回家桌面</a><br>
+         5.1024回家Macbook桌面端：<a href="https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg" style="text-decoration: none;" >1024回家桌面</a><br>
+         6.1024回家iPhone端：加微信或者QQ：2950525265咨询<br>
+         7.本APP永久停止更新！愿你安好！
         """,
         "header_ms": "这里总有你想看的吧",  # 这是app菜单栏头部
         "header_url": "",  # 点击头部显示的跳转
@@ -497,12 +498,12 @@ def get_iphone_files():
                            "91ImgCookies": "CzG_auth",
                            "98cookies": "cPNj_2132_auth"},
             # 其他回家客户端下载
-            "yongjiu": "永久地址: http://www.jsons.cn/base64/",
-            "android": "安卓APP：https://blog.csdn.net/weixin_42565127/article/details/127068694",
-            "windows": "Window：https://element.eleme.cn/#/zh-CN/component/container",
-            "macbook": "Mac电脑：https://antdv.com/components/layout-cn",
-            "iphone": "iPhone：https://antdv.com/components/layout-cn",
-            "share": "老司机来了：http://www.jsons.cn/base64/",
+            "yongjiu": "永久地址: https://github.com/1024huijia/GoHome",
+            "android": "安卓APP：https://1024huijia.github.io/TestSome/sources/1024回家230504-3.1.apk",
+            "windows": "Window：https://1024huijia.github.io/TestSome/sources/1024回家Win0.0.1_x64_zh-CN.msi",
+            "macbook": "Mac电脑：https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg",
+            "iphone": "iPhone：加微信或者QQ：2950525265购买安装指导",
+            "share": "老司机来了：https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip",
         },
         # 其中的内容是消息提醒内容
         "content": url_to_iphone(
@@ -555,12 +556,12 @@ def get_chrome_files():
     我的比特币账户：<span style="padding: 0 5px 0 2px;">3HJTSzf2GL7Bj8r7HakUNS1G9jauemk1Lt</span>我的以太坊账户：<span style="padding: 0 5px 0 2px;">0xb9061992ea948e247a4542209c14c5e7ea79afc6</span></div>
             """,
             # 其他回家客户端下载
-            "yongjiu": "http://www.jsons.cn/base64/",
-            "android": "https://blog.csdn.net/weixin_42565127/article/details/127068694",
-            "windows": "https://element.eleme.cn/#/zh-CN/component/container",
-            "macbook": "https://antdv.com/components/layout-cn",
-            "iphone": "https://antdv.com/components/layout-cn",
-            "share": "老司机来了：http://www.jsons.cn/base64/",
+            "yongjiu": "https://github.com/1024huijia/GoHome",
+            "android": "https://1024huijia.github.io/TestSome/sources/1024回家230504-3.1.apk",
+            "windows": "https://1024huijia.github.io/TestSome/sources/1024回家Win0.0.1_x64_zh-CN.msi",
+            "macbook": "https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg",
+            "iphone": "https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/iPhoneHuijia2.4t05rnrwiku0.webp",
+            "share": "老司机来了：https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip",
             # 购买邀请码功能: 后面再做，先做桌面端
             "open_pay": {
                 "open": False,
@@ -693,12 +694,12 @@ def get_desktop_files():
             我的比特币账户：<span style="padding: 0 5px 0 2px;">3HJTSzf2GL7Bj8r7HakUNS1G9jauemk1Lt</span>我的以太坊账户：<span style="padding: 0 5px 0 2px;">0xb9061992ea948e247a4542209c14c5e7ea79afc6</span></div>
     """,
             # 其他回家客户端下载
-            "android": "https://blog.csdn.net/weixin_42565127/article/details/127068694",
-            "windows": "https://element.eleme.cn/#/zh-CN/component/container",
-            "macbook": "https://antdv.com/components/layout-cn",
-            "iphone": "https://www.baidu.com/",
-            "yongjiu": "http://www.jsons.cn/base64/",
-            "share": "老司机带你回家：https://wwd.lanzoue.com/iQeC00912epc，\n浏览器插件：https://wwd.lanzoue.com/iQeC00912epc",
+            "yongjiu": "https://github.com/1024huijia/GoHome",
+            "android": "https://1024huijia.github.io/TestSome/sources/1024回家230504-3.1.apk",
+            "windows": "https://1024huijia.github.io/TestSome/sources/1024回家Win0.0.1_x64_zh-CN.msi",
+            "macbook": "https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg",
+            "iphone": "https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/iPhoneHuijia2.4t05rnrwiku0.webp",
+            "share": "老司机带你回家：https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip",
             # 购买邀请码功能: 后面再做，先做桌面端
             "open_pay": {
                 "open": False,
