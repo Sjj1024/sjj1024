@@ -27,9 +27,9 @@ Git云：<https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.d
 
     
 ### 1024回家iPhone版  
-iPhone安装包：需付费99元即可使用   
+iPhone安装包：添加微信或者QQ：2950525265 后付费99元即可使用   
 iPhone界面：
-![](https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/iPhoneHuijia.4gzlvsc7yx40.webp)
+![](https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/iPhoneHuijia2.4t05rnrwiku0.webp)
   
 ### 1024回家Chrome插件版
 Chrome插件安装包：  
