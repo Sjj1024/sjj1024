@@ -247,9 +247,9 @@ def url_to_web_html(more_info):
         <h3 class="tabTitle tabTop">1024回家Web版</h3>
         <div class="testBox">
             <div class="btnBox">
-                <a class="btn" id="android" href="https://wwlu.lanzoum.com/i3FcF0umzg2b" target="_blank">安卓APP</a>
-                <a class="btn" id="windows" href="https://wwlu.lanzoum.com/iRQCb0tl5zta" target="_blank">Windows</a>
-                <a class="btn" id="macbook" href="https://wwlu.lanzoum.com/iNtOg0tl448h" target="_blank">Mac电脑</a>
+                <a class="btn" id="android" href="https://1024huijia.github.io/TestSome/sources/1024回家230505-3.1.apk" target="_blank">安卓APP</a>
+                <a class="btn" id="windows" href="https://1024huijia.github.io/TestSome/sources/1024回家Win0.0.1_x64_zh-CN.msi" target="_blank">Windows</a>
+                <a class="btn" id="macbook" href="https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg" target="_blank">Mac电脑</a>
                 <a class="btn" id="iphone" href="https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/iPhoneHuijia2.4t05rnrwiku0.webp" target="_blank">iPhone版</a>
                 <a class="btn" id="yongjiu" href="https://github.com/1024huijia/GoHome" target="_blank">永久地址</a>
             </div>
@@ -406,7 +406,7 @@ def get_app_files():
         "brush_rate": 10,  # 刷贡献的百分比，越大越容易触发刷
         "brush_all": True,  # 是否全部刷，只要是headers里面的，就都刷？
         # 分享的内容
-        "more_urls": "1024回家：https://wwlu.lanzoum.com/iPZc70uo1q5c",
+        "more_urls": "1024回家：https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip",
         # 更多推荐页面
         "more_html": url_to_android_html(
             """<span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问</span>"""),
@@ -499,7 +499,7 @@ def get_iphone_files():
                            "98cookies": "cPNj_2132_auth"},
             # 其他回家客户端下载
             "yongjiu": "永久地址: https://github.com/1024huijia/GoHome",
-            "android": "安卓APP：https://1024huijia.github.io/TestSome/sources/1024回家230504-3.1.apk",
+            "android": "安卓APP：https://1024huijia.github.io/TestSome/sources/1024回家230505-3.1.apk",
             "windows": "Window：https://1024huijia.github.io/TestSome/sources/1024回家Win0.0.1_x64_zh-CN.msi",
             "macbook": "Mac电脑：https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg",
             "iphone": "iPhone：加微信或者QQ：2950525265购买安装指导",
@@ -557,7 +557,7 @@ def get_chrome_files():
             """,
             # 其他回家客户端下载
             "yongjiu": "https://github.com/1024huijia/GoHome",
-            "android": "https://1024huijia.github.io/TestSome/sources/1024回家230504-3.1.apk",
+            "android": "https://1024huijia.github.io/TestSome/sources/1024回家230505-3.1.apk",
             "windows": "https://1024huijia.github.io/TestSome/sources/1024回家Win0.0.1_x64_zh-CN.msi",
             "macbook": "https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg",
             "iphone": "https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/iPhoneHuijia2.4t05rnrwiku0.webp",
@@ -695,7 +695,7 @@ def get_desktop_files():
     """,
             # 其他回家客户端下载
             "yongjiu": "https://github.com/1024huijia/GoHome",
-            "android": "https://1024huijia.github.io/TestSome/sources/1024回家230504-3.1.apk",
+            "android": "https://1024huijia.github.io/TestSome/sources/1024回家230505-3.1.apk",
             "windows": "https://1024huijia.github.io/TestSome/sources/1024回家Win0.0.1_x64_zh-CN.msi",
             "macbook": "https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg",
             "iphone": "https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/iPhoneHuijia2.4t05rnrwiku0.webp",
