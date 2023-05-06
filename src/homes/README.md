@@ -4,7 +4,7 @@
 使用两个草榴邀请码/98邀请码/91邀请码联系我邮件：1024huijia@gmail.com，可以拉你进入软件开发交流群，群里可以提问题，可以提需求，可以交流等等。
 加QQ：2950525265 或者Tg：https://t.me/xiaoshen1024 或者邮箱：1024huijia@gmail.com 可以快速获得邀请码
 
-### 1024回家所有平台(安卓/iPhone苹果/windows/mac/浏览器插件/油猴脚本等)安装包下载：  
+### 1024回家所有平台(安卓/苹果iPhone/windows/mac/浏览器插件/油猴脚本等)安装包下载：  
 蓝奏云：<https://wwlu.lanzoum.com/i0AbX0urkjeb>  
 Git云：<https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip>
   
