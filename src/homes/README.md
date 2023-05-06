@@ -10,18 +10,18 @@ Git云：<https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip>
   
 ### 1024回家安卓版  
 安卓安装包：  
-蓝奏云：<https://wwlu.lanzoum.com/i3FcF0umzg2b>  
-Git云：<https://1024huijia.github.io/TestSome/sources/1024回家230504-3.1.apk>    
+蓝奏云：<https://wwlu.lanzoum.com/iZZ9d0uun2de>  
+Git云：<https://1024huijia.github.io/TestSome/sources/1024回家230506-3.1.apk>    
 安卓界面：
 ![](https://1024huijia.github.io/QingChunMeizi/androidhome.2i7k11inud40.webp)
   
 ### 1024回家桌面版  
 #### windows安装包：  
-蓝奏云：<https://wwlu.lanzoum.com/iRQCb0tl5zta>  
-Git云：<https://1024huijia.github.io/TestSome/sources/1024回家Win0.0.1_x64_zh-CN.msi>    
+蓝奏云：<https://wwlu.lanzoum.com/iY0Ux0uuonyh>  
+Git云：<https://1024huijia.github.io/TestSome/sources/Windows.zip>    
 #### mac安装包：  
-蓝奏云：<https://wwlu.lanzoum.com/iNtOg0tl448h>  
-Git云：<https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg>    
+蓝奏云：<https://wwlu.lanzoum.com/iZV7l0uuonqj>  
+Git云：<https://1024huijia.github.io/TestSome/sources/Mac电脑.zip>    
 桌面版界面：
 ![](https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/image.2uogc2e021s0.webp)  
 
@@ -33,16 +33,16 @@ iPhone界面：
   
 ### 1024回家Chrome插件版
 Chrome插件安装包：  
-蓝奏云：<https://wwlu.lanzoum.com/iFf8C0tl449i>  
-Git云：<https://1024huijia.github.io/TestSome/sources/1024回家ChromeV0.1.zip>   
+蓝奏云：<https://wwlu.lanzoum.com/ico8q0uuoo1a>  
+Git云：<https://1024huijia.github.io/TestSome/sources/浏览器插件.zip>   
 Chrome插件界面：
 ![](https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/image.5j7g1863qw00.webp)  
 
   
 ### 1024回家油猴版  
 油猴版安装包：
-蓝奏云：<https://wwlu.lanzoum.com/ik0TD0tl9cjg>  
-Git云：<https://1024huijia.github.io/TestSome/sources/1024回家TmV1.js>  
+蓝奏云：<https://wwlu.lanzoum.com/i6sUe0uuoo4d>  
+Git云：<https://1024huijia.github.io/TestSome/sources/油猴脚本.zip>  
 油猴版本界面：
 ![](https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/image.5j7g1863qw00.webp)  
 
