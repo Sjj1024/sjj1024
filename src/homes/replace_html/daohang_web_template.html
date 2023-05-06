@@ -240,10 +240,13 @@
     addToHomescreen.removeSession();
     addToHomescreen();
     // 判断是pwa还是web
-    if (addToHomescreen.isStandalone) {
+    const isInStandaloneMode = () =>
+      (window.matchMedia('(display-mode: standalone)').matches) || (window.navigator.standalone) || document.referrer.includes('android-app://');
+
+    if (isInStandaloneMode()) {
       document.querySelector("div.pwa").style.display = "block"
       document.querySelector("div.web").style.display = "none"
-    }else{
+    } else {
       console.log("不是在pwa中");
     }
 </script>
