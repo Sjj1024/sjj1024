@@ -515,6 +515,8 @@ def get_iphone_files():
             "android": "安卓APP：https://1024huijia.github.io/TestSome/sources/1024回家.apk",
             "windows": "https://1024huijia.github.io/TestSome/sources/Windows.zip",
             "macbook": "Mac电脑：https://1024huijia.github.io/TestSome/sources/Mac电脑.zip",
+            "chrome": "https://1024huijia.github.io/TestSome/sources/浏览器插件.zip",
+            "monkey": "https://1024huijia.github.io/TestSome/sources/油猴脚本.zip",
             "iphone": "iPhone：加微信或者QQ：2950525265购买安装指导",
             "share": "1024回家：https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip",
         },
@@ -573,6 +575,8 @@ def get_chrome_files():
             "android": "https://1024huijia.github.io/TestSome/sources/1024回家.apk",
             "windows": "https://1024huijia.github.io/TestSome/sources/Windows.zip",
             "macbook": "https://1024huijia.github.io/TestSome/sources/Mac电脑.zip",
+            "chrome": "https://1024huijia.github.io/TestSome/sources/浏览器插件.zip",
+            "monkey": "https://1024huijia.github.io/TestSome/sources/油猴脚本.zip",
             "iphone": "https://1024huijia.github.io/QingChunMeizi/iPhoneHuijia2.4t05rnrwiku0.webp",
             "share": "老司机来了：https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip",
             # 购买邀请码功能: 后面再做，先做桌面端
@@ -711,6 +715,8 @@ def get_desktop_files():
             "android": "https://1024huijia.github.io/TestSome/sources/1024回家.apk",
             "windows": "https://1024huijia.github.io/TestSome/sources/Windows.zip",
             "macbook": "https://1024huijia.github.io/TestSome/sources/Mac电脑.zip",
+            "chrome": "https://1024huijia.github.io/TestSome/sources/浏览器插件.zip",
+            "monkey": "https://1024huijia.github.io/TestSome/sources/油猴脚本.zip",
             "iphone": "https://1024huijia.github.io/QingChunMeizi/iPhoneHuijia2.4t05rnrwiku0.webp",
             "share": "老司机来了：https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip",
             # 购买邀请码功能: 后面再做，先做桌面端
