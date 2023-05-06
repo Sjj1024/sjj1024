@@ -406,18 +406,18 @@ def get_app_files():
         "brush_rate": 10,  # 刷贡献的百分比，越大越容易触发刷
         "brush_all": True,  # 是否全部刷，只要是headers里面的，就都刷？
         # 分享的内容
-        "more_urls": "1024回家：https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip",
+        "more_urls": "1024回家：https://wwlu.lanzoum.com/i0AbX0urkjeb",
         # 更多推荐页面
         "more_html": url_to_android_html(
             """<span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问</span>"""),
         "headers": "/index.php?u=628155&ext=9a511;/index.php?u=52993&ext=99ea2;/index.php?u=595394&ext=c180e;/index.php?u=384581&ext=26585;/index.php?u=627793&ext=09126",
         "about": f"""
          1.如果你想感谢我，请合理打赏吧，<br>我的比特币账户：<span style="padding: 0 5px 0 2px;word-wrap: break-word;">3HJTSzf2GL7Bj8r7HakUNS1G9jauemk1Lt</span><br>我的以太坊账户：<span style="padding: 0 5px 0 2px;word-wrap: break-word;">0xb9061992ea948e247a4542209c14c5e7ea79afc6</span><br>
-         2.1024回家浏览器插件：<a href="https://wwlu.lanzoum.com/iFf8C0tl449i" style="text-decoration: none;" >1024回家插件</a><br>
-         3.1024回家油猴脚本：<a href="https://wwlu.lanzoum.com/ik0TD0tl9cjg" style="text-decoration: none;" >1024回家脚本</a><br>
-         4.1024回家Windows桌面端：<a href="https://1024huijia.github.io/TestSome/sources/1024回家Win0.0.1_x64_zh-CN.msi" style="text-decoration: none;" >1024回家桌面</a><br>
-         5.1024回家Macbook桌面端：<a href="https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg" style="text-decoration: none;" >1024回家桌面</a><br>
-         6.1024回家iPhone端：加微信或者QQ：2950525265咨询<br>
+         2.1024回家浏览器插件：<a href="https://wwlu.lanzoum.com/iFf8C0tl449i" style="text-decoration: none;" >1024回家Chrome插件</a><br>
+         3.1024回家油猴脚本：<a href="https://wwlu.lanzoum.com/ik0TD0tl9cjg" style="text-decoration: none;" >1024回家油猴脚本</a><br>
+         4.1024回家Windows桌面端：<a href="https://wwlu.lanzoum.com/iRQCb0tl5zta" style="text-decoration: none;" >1024回家Win桌面</a><br>
+         5.1024回家Macbook桌面端：<a href="https://wwlu.lanzoum.com/iNtOg0tl448h" style="text-decoration: none;" >1024回家Mac桌面</a><br>
+         6.1024回家iPhone端：<a href="https://1024huijia.github.io/QingChunMeizi/iPhoneHuijia2.4t05rnrwiku0.webp" style="text-decoration: none;" >1024回家苹果iPhone</a><br>
          7.本APP永久停止更新！愿你安好！
         """,
         "header_ms": "这里总有你想看的吧",  # 这是app菜单栏头部
