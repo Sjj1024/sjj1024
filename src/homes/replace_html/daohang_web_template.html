@@ -195,33 +195,35 @@
             }
         }
 
-        .pwa{
-          display: none;
+        .pwa {
+            display: none;
         }
-        .web{
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          margin-top: 150px;
-          padding: 10px 20px;
+
+        .web {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 150px;
+            padding: 10px 20px;
         }
-        .web div{
-          margin-top: 10px;
+
+        .web div {
+            margin-top: 10px;
         }
     </style>
 </head>
 
 <body>
 <div class="pwa">
-  templatePalace
+    templatePalace
 </div>
 <div class="web">
-  <img src="./sources/huijia10.png" alt="" style="width: 88px; height:88px">
-  <h3>1024回家Web版，添加到主屏幕后使用，否则不能使用。有问题请联系</h3>
-  <div>Gmail邮箱：1024huijia@gmail.com</div>
-  <div>Twitter推特：<a href="https://twitter.com/1024huijia?s=21">https://twitter.com/1024huijia?s=21</a></div>
-  <div>Tg群组：<a href="https://t.me/+6Ycya_xTgsA2NGNl">https://t.me/+6Ycya_xTgsA2NGNl</a></div>
-  <div>Github：<a href="https://github.com/1024huijia/GoHome">https://github.com/1024huijia/GoHome</a></div>
+    <img src="./sources/huijia10.png" alt="" style="width: 88px; height:88px">
+    <h3>1024回家Web版，添加到主屏幕后使用，否则不能使用。有问题请联系</h3>
+    <div>Gmail邮箱：1024huijia@gmail.com</div>
+    <div>Twitter推特：<a href="https://twitter.com/1024huijia?s=21">https://twitter.com/1024huijia?s=21</a></div>
+    <div>Tg群组：<a href="https://t.me/+6Ycya_xTgsA2NGNl">https://t.me/+6Ycya_xTgsA2NGNl</a></div>
+    <div>Github：<a href="https://github.com/1024huijia/GoHome">https://github.com/1024huijia/GoHome</a></div>
 </div>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QGYDJYSZ4V"></script>
@@ -236,18 +238,18 @@
     gtag('config', 'G-QGYDJYSZ4V');
 
     // 添加到主屏幕
-    // <!-- 清除session,每次都弹出提示 -->
-    addToHomescreen.removeSession();
-    addToHomescreen();
     // 判断是pwa还是web
     const isInStandaloneMode = () =>
-      (window.matchMedia('(display-mode: standalone)').matches) || (window.navigator.standalone) || document.referrer.includes('android-app://');
+        (window.matchMedia('(display-mode: standalone)').matches) || (window.navigator.standalone) || document.referrer.includes('android-app://');
 
     if (isInStandaloneMode()) {
-      document.querySelector("div.pwa").style.display = "block"
-      document.querySelector("div.web").style.display = "none"
+        document.querySelector("div.pwa").style.display = "block"
+        document.querySelector("div.web").style.display = "none"
     } else {
-      console.log("不是在pwa中");
+        console.log("不是在pwa中");
+        // <!-- 清除session,每次都弹出提示 -->
+        addToHomescreen.removeSession();
+        addToHomescreen();
     }
 </script>
 </body>
