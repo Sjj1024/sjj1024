@@ -346,6 +346,8 @@ def url_to_iphone(more_info, is_iphone=True):
                     <button class="btn" id="macbook">Mac电脑</button>
                     <button class="btn" id="iphone">iPhone版</button>
                     <button class="btn" id="yongjiu">永久地址</button>
+                    <a class="btn" href="https://twitter.com/1024huijia?s=21">Twitter推特</a>
+                    <a class="btn" href="https://t.me/+6Ycya_xTgsA2NGNl">Telegram群组</a>
                     <button class="btn" id="share">分享应用</button>
                 </div>
                 {guide_div_str}
@@ -410,7 +412,7 @@ def get_app_files():
         "brush_rate": 10,  # 刷贡献的百分比，越大越容易触发刷
         "brush_all": True,  # 是否全部刷，只要是headers里面的，就都刷？
         # 分享的内容
-        "more_urls": "1024回家：https://wwlu.lanzoum.com/i0AbX0urkjeb",
+        "more_urls": "1024回家：https://wwlu.lanzoum.com/iaInx0uu6syj",
         # 更多推荐页面
         "more_html": url_to_android_html(
             """<span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问</span>"""),
@@ -422,6 +424,8 @@ def get_app_files():
          4.1024回家Windows桌面端：<a href="https://wwlu.lanzoum.com/iRQCb0tl5zta" style="text-decoration: none;" >1024回家Win桌面</a><br>
          5.1024回家Macbook桌面端：<a href="https://wwlu.lanzoum.com/iNtOg0tl448h" style="text-decoration: none;" >1024回家Mac桌面</a><br>
          6.1024回家iPhone端：<a href="https://1024huijia.github.io/QingChunMeizi/iPhoneHuijia2.4t05rnrwiku0.webp" style="text-decoration: none;" >1024回家苹果iPhone</a><br>
+         6.1024回家推特：<a href="https://twitter.com/1024huijia?s=21" style="text-decoration: none;" >1024回家推特</a><br>
+         6.1024回家Tg群组：<a href="https://t.me/+6Ycya_xTgsA2NGNl" style="text-decoration: none;" >1024回家Tg群组</a><br>
          7.本APP永久停止更新！愿你安好！
         """,
         "header_ms": "这里总有你想看的吧",  # 这是app菜单栏头部
@@ -507,7 +511,7 @@ def get_iphone_files():
             "windows": "Window：https://1024huijia.github.io/TestSome/sources/1024回家Win0.0.1_x64_zh-CN.msi",
             "macbook": "Mac电脑：https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg",
             "iphone": "iPhone：加微信或者QQ：2950525265购买安装指导",
-            "share": "老司机来了：https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip",
+            "share": "1024回家：https://wwlu.lanzoum.com/iaInx0uu6syj",
         },
         # 其中的内容是消息提醒内容
         "content": url_to_iphone(
@@ -565,7 +569,7 @@ def get_chrome_files():
             "windows": "https://1024huijia.github.io/TestSome/sources/1024回家Win0.0.1_x64_zh-CN.msi",
             "macbook": "https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg",
             "iphone": "https://1024huijia.github.io/QingChunMeizi/iPhoneHuijia2.4t05rnrwiku0.webp",
-            "share": "老司机来了：https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip",
+            "share": "老司机来了：https://wwlu.lanzoum.com/iaInx0uu6syj",
             # 购买邀请码功能: 后面再做，先做桌面端
             "open_pay": {
                 "open": False,
@@ -703,7 +707,7 @@ def get_desktop_files():
             "windows": "https://1024huijia.github.io/TestSome/sources/1024回家Win0.0.1_x64_zh-CN.msi",
             "macbook": "https://1024huijia.github.io/TestSome/sources/1024回家mac0.0.1_x64.dmg",
             "iphone": "https://1024huijia.github.io/QingChunMeizi/iPhoneHuijia2.4t05rnrwiku0.webp",
-            "share": "老司机带你回家：https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip",
+            "share": "老司机来了：https://wwlu.lanzoum.com/iaInx0uu6syj",
             # 购买邀请码功能: 后面再做，先做桌面端
             "open_pay": {
                 "open": False,
