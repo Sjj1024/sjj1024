@@ -323,6 +323,7 @@ def cao_app_exe_page(html_path):
         return content_html
 
 
+# iPhoneJs和油猴用的页面
 def url_to_iphone(more_info, is_iphone=True):
     # 先将热门导航里面的内容通过模板写入到daohang.html中
     """
