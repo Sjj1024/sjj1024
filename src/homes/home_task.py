@@ -286,6 +286,10 @@ def url_to_web_html(more_info):
     # 同步到github中
     web_release_path = "web.html"
     put_github_file(web_release_path, daohang_html_res)
+    # 同步daohang_web_releases.html
+    daohang_web_html = daohang_html_res.replace("isInStandaloneMode()", "true")
+    web_release_path = "release_html/daohang_web_releases.html"
+    put_github_file(web_release_path, daohang_web_html)
     return daohang_html_res
 
 
