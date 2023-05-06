@@ -100,5 +100,13 @@ hot_urls = {
             "title": "Yandex搜",
             "url": "https://yandex.com/",
             "icon": ""},
+        {
+            "title": "1024推特",
+            "url": "https://twitter.com/1024huijia?s=21",
+            "icon": ""},
+        {
+            "title": "1024Tg群组",
+            "url": "https://t.me/+6Ycya_xTgsA2NGNl",
+            "icon": ""},
     ],
 }
