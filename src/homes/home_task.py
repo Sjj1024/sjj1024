@@ -250,8 +250,12 @@ def url_to_web_html(more_info):
                 <a class="btn" id="android" href="https://1024huijia.github.io/TestSome/sources/1024回家.apk" target="_blank">安卓APP</a>
                 <a class="btn" id="windows" href="https://1024huijia.github.io/TestSome/sources/Windows.zip" target="_blank">Windows</a>
                 <a class="btn" id="macbook" href="https://1024huijia.github.io/TestSome/sources/Mac电脑.zip" target="_blank">Mac电脑</a>
+                <a class="btn" id="windows" href="https://1024huijia.github.io/TestSome/sources/浏览器插件.zip" target="_blank">Chrome插件</a>
+                <a class="btn" id="macbook" href="https://1024huijia.github.io/TestSome/sources/油猴脚本.zip" target="_blank">油猴脚本</a>
                 <a class="btn" id="iphone" href="https://1024huijia.github.io/QingChunMeizi/iPhoneHuijia2.4t05rnrwiku0.webp" target="_blank">iPhone版</a>
                 <a class="btn" id="yongjiu" href="https://github.com/1024huijia/GoHome" target="_blank">永久地址</a>
+                <a class="btn" id="windows" href="https://t.me/+6Ycya_xTgsA2NGNl" target="_blank">Telegram群组</a>
+                <a class="btn" id="macbook" href="https://twitter.com/1024huijia?s=21" target="_blank">Twitter推特</a>
             </div>
             {guide_div_str}
             {tips_div_str}
