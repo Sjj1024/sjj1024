@@ -346,8 +346,12 @@ def url_to_iphone(more_info, is_iphone=True):
                     <button class="btn" id="macbook">Mac电脑</button>
                     <button class="btn" id="iphone">iPhone版</button>
                     <button class="btn" id="yongjiu">永久地址</button>
-                    <a class="btn" href="https://twitter.com/1024huijia?s=21">Twitter推特</a>
-                    <a class="btn" href="https://t.me/+6Ycya_xTgsA2NGNl">Telegram群组</a>
+                  <a style="text-decoration: none;" href="https://twitter.com/1024huijia?s=21" target="_blank">
+                    <button class="btn" style="text-decoration: none;">Twitter推特</button>
+                  </a>
+                  <a style="text-decoration: none;" href="https://t.me/+6Ycya_xTgsA2NGNl" target="_blank">
+                    <button class="btn" style="text-decoration: none;">Telegram群组</button>
+                    </a>
                     <button class="btn" id="share">分享应用</button>
                 </div>
                 {guide_div_str}
