@@ -8,7 +8,7 @@
 或者Twitter推特：<https://twitter.com/1024huijia?s=21>   
 
 ### 1024回家所有平台(安卓/苹果iPhone/windows/mac/浏览器插件/油猴脚本等)安装包下载：  
-蓝奏云：<https://wwlu.lanzoum.com/iaInx0uu6syj>  
+蓝奏云：<https://wwlu.lanzoum.com/iZ8vb0uvnv7i>  
 Git云：<https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip>
   
 ### 1024回家安卓版  
