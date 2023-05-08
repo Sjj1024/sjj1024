@@ -12,6 +12,7 @@
 Git云：<https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip>
   
 ### 1024回家安卓版  
+安卓版功能最强：支持左侧列表页侧滑切换不同的热门网站，支持动态切换不同的源地址，支持屏蔽广告等功能
 安卓安装包：  
 蓝奏云：<https://wwlu.lanzoum.com/iZZ9d0uun2de>  
 Git云：<https://1024huijia.github.io/TestSome/sources/1024回家230506-3.1.apk>    
@@ -30,8 +31,9 @@ Git云：<https://1024huijia.github.io/TestSome/sources/Mac电脑.zip>
 
     
 ### 1024回家iPhone版  
-iPhone安装包：添加微信或者QQ：2950525265 后，付费购买软件或者使用两个1024邀请码/98邀请码兑换软件后即可使用   
-iPhone界面：
+iPhone安装包需添加微信或者QQ：2950525265 后，付费购买软件或者使用两个1024邀请码/98邀请码兑换软件后即可使用   
+iPhone版功能：和桌面版、浏览器插件版、油猴版一样的功能。保证让你安装成功永久使用   
+iPhone界面：   
 ![](https://1024huijia.github.io/QingChunMeizi/iPhoneHuijia2.4t05rnrwiku0.webp)
   
 ### 1024回家Chrome插件版
