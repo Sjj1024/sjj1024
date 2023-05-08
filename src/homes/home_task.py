@@ -244,7 +244,7 @@ def url_to_web_html(more_info):
     tips_div_str = f"""<div class="tips">{more_info}</div>"""
     header_guide = f"""
     <div class="tabBox">
-        <h3 class="tabTitle tabTop">1024回家Web版</h3>
+        <h3 class="tabTitle tabTop">1024回家PWA版</h3>
         <div class="testBox">
             <div class="btnBox">
                 <a class="btn" id="android" href="https://1024huijia.github.io/TestSome/sources/1024回家.apk" target="_blank">安卓APP</a>
@@ -842,7 +842,7 @@ def run():
         put_github_file(file_path, content)
     # 同步web端发布
     url_to_web_html(
-        """<span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问</span>""")
+        """<span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问，网页版并不稳定，请下载对应的安卓/苹果iPhone/Windows/Mac/浏览器插件/客户端后稳定使用</span>""")
     # 同步readme文档
     put_readme_file(app_file)
     print_git_path()
