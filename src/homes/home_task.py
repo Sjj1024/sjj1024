@@ -294,6 +294,10 @@ def url_to_web_html(more_info):
     daohang_web_html = daohang_html_res.replace("isInStandaloneMode()", "true")
     web_release_path = "release_html/daohang_web_releases.html"
     put_github_file(web_release_path, daohang_web_html)
+    # 同步发布页到网站
+    huijia_path = "src/homes/release_html/huijia.html"
+    with open(huijia_path, "r", encoding="utf-8") as f:
+        put_github_file("huijia.html", f.read())
     return daohang_html_res
 
 
