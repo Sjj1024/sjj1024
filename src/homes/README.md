@@ -9,7 +9,7 @@
 
 ### 1024回家(安卓/苹果iPhone/windows/mac/浏览器插件/油猴脚本等)安装包下载：  
 蓝奏云：<https://wwlu.lanzoum.com/iY6PL0v27s1a>  
-Git云：<https://1024huijia.github.io/TestSome/sources/1024回家V1.0.zip>
+Git云：<https://1024huijia.github.io/TestSome/sources/1024HomeV1.0.zip>
 
 
 
