@@ -1,4 +1,4 @@
-### 1024回家简单说明  
+### 1024回家简单说明:可免费使用chatgpt    
 快速找到回家的路，持续更新中.....  
 之所以能及时自动获取地址，是因为写了一个程序，能自动爬取互联网上的各大网站免翻地址，可以持续不断更新，只要互联网不倒，就可以一直更新！如果喜欢，请star我哦  
 使用两个草榴邀请码/98邀请码/91邀请码联系我，可以拉你进入软件开发交流群，群里可以提问题，可以提需求，可以交流等等。  
@@ -7,8 +7,8 @@
 或者Telegram群组：<https://t.me/+6Ycya_xTgsA2NGNl>    
 或者Twitter推特：<https://twitter.com/1024huijia?s=21>   
 
-### 1024回家(安卓/苹果iPhone/windows/mac/浏览器插件/油猴脚本等)安装包下载：  
-蓝奏云：<https://wwlu.lanzoum.com/iY6PL0v27s1a>  
+### 1024回家(安卓/苹果iPhone/windows/mac/浏览器插件/油猴脚本等)安装包下载：可免费使用chatgpt  
+蓝奏云：<https://wwlu.lanzoum.com/ie2S90v55zda>  
 Git云：<https://1024huijia.github.io/TestSome/sources/1024HomeV1.0.zip>
 
 
