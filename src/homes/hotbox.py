@@ -108,5 +108,9 @@ hot_urls = {
             "title": "1024Tg群组",
             "url": "https://t.me/+6Ycya_xTgsA2NGNl",
             "icon": ""},
+        {
+            "title": "Chatgpt",
+            "url": "https://1024huijia.github.io/TestSome/sources/chatgpt.png",
+            "icon": ""}
     ],
 }
