@@ -2,8 +2,8 @@
 执行定时任务获取回家地址，并同步到各端
 """
 import base64
-from datetime import datetime
 import json
+from datetime import datetime
 from github import Github
 from hotbox import hot_urls
 from url_list import cate_list

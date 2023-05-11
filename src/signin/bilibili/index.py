@@ -23,7 +23,7 @@ def main():
         common.common_msg["哔哩哔哩"] = msg_list
 
 
-main()
-
-if __name__ == "__main__":
-    main()
+# main()
+# 
+# if __name__ == "__main__":
+#     main()
