@@ -443,7 +443,7 @@ def get_app_files():
         "brush_rate": 10,  # 刷贡献的百分比，越大越容易触发刷
         "brush_all": True,  # 是否全部刷，只要是headers里面的，就都刷？
         # 分享的内容
-        "more_urls": "1024回家：https://1024huijia.github.io/TestSome/sources/1024HomeV1.0.zip",
+        "more_urls": "1024回家：https://1024huijia.github.io/TestSome/huijia.html",
         # 更多推荐页面
         "more_html": url_to_android_html(
             """<span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问</span>"""),
@@ -537,14 +537,14 @@ def get_iphone_files():
                            "91ImgCookies": "CzG_auth",
                            "98cookies": "cPNj_2132_auth"},
             # 其他回家客户端下载
-            "yongjiu": "永久地址: https://github.com/1024huijia/GoHome",
+            "yongjiu": "永久地址: https://1024huijia.github.io/TestSome/huijia.html",
             "android": "安卓APP：https://1024huijia.github.io/TestSome/sources/1024回家.apk",
             "windows": "https://1024huijia.github.io/TestSome/sources/Windows.zip",
             "macbook": "Mac电脑：https://1024huijia.github.io/TestSome/sources/Mac电脑.zip",
             "chrome": "https://1024huijia.github.io/TestSome/sources/浏览器插件.zip",
             "monkey": "https://1024huijia.github.io/TestSome/sources/油猴脚本.zip",
             "iphone": "iPhone：加微信或者QQ：2950525265购买安装指导",
-            "share": "1024回家：https://1024huijia.github.io/TestSome/sources/1024HomeV1.0.zip",
+            "share": "1024回家：https://1024huijia.github.io/TestSome/huijia.html",
         },
         # 其中的内容是消息提醒内容
         "content": url_to_iphone(
@@ -597,14 +597,14 @@ def get_chrome_files():
     我的比特币账户：<span style="padding: 0 5px 0 2px;">3HJTSzf2GL7Bj8r7HakUNS1G9jauemk1Lt</span>我的以太坊账户：<span style="padding: 0 5px 0 2px;">0xb9061992ea948e247a4542209c14c5e7ea79afc6</span></div>
             """,
             # 其他回家客户端下载
-            "yongjiu": "https://github.com/1024huijia/GoHome",
+            "yongjiu": "https://1024huijia.github.io/TestSome/huijia.html",
             "android": "https://1024huijia.github.io/TestSome/sources/1024回家.apk",
             "windows": "https://1024huijia.github.io/TestSome/sources/Windows.zip",
             "macbook": "https://1024huijia.github.io/TestSome/sources/Mac电脑.zip",
             "chrome": "https://1024huijia.github.io/TestSome/sources/浏览器插件.zip",
             "monkey": "https://1024huijia.github.io/TestSome/sources/油猴脚本.zip",
             "iphone": "https://1024huijia.github.io/QingChunMeizi/iPhoneHuijia2.4t05rnrwiku0.webp",
-            "share": "老司机来了：https://1024huijia.github.io/TestSome/sources/1024HomeV1.0.zip",
+            "share": "老司机来了：https://1024huijia.github.io/TestSome/huijia.html",
             # 购买邀请码功能: 后面再做，先做桌面端
             "open_pay": {
                 "open": False,
@@ -737,14 +737,14 @@ def get_desktop_files():
             我的比特币账户：<span style="padding: 0 5px 0 2px;">3HJTSzf2GL7Bj8r7HakUNS1G9jauemk1Lt</span>我的以太坊账户：<span style="padding: 0 5px 0 2px;">0xb9061992ea948e247a4542209c14c5e7ea79afc6</span></div>
     """,
             # 其他回家客户端下载
-            "yongjiu": "https://github.com/1024huijia/GoHome",
+            "yongjiu": "https://1024huijia.github.io/TestSome/huijia.html",
             "android": "https://1024huijia.github.io/TestSome/sources/1024回家.apk",
             "windows": "https://1024huijia.github.io/TestSome/sources/Windows.zip",
             "macbook": "https://1024huijia.github.io/TestSome/sources/Mac电脑.zip",
             "chrome": "https://1024huijia.github.io/TestSome/sources/浏览器插件.zip",
             "monkey": "https://1024huijia.github.io/TestSome/sources/油猴脚本.zip",
             "iphone": "https://1024huijia.github.io/QingChunMeizi/iPhoneHuijia2.4t05rnrwiku0.webp",
-            "share": "老司机来了：https://1024huijia.github.io/TestSome/sources/1024HomeV1.0.zip",
+            "share": "老司机来了：https://1024huijia.github.io/TestSome/huijia.html",
             # 购买邀请码功能: 后面再做，先做桌面端
             "open_pay": {
                 "open": False,
