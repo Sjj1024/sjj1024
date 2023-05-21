@@ -1,9 +1,6 @@
-### 1024回家简单说明:可免费使用chatgpt    
-快速找到回家的路，持续更新中.....  
-之所以能及时自动获取地址，是因为写了一个程序，能自动爬取互联网上的各大网站免翻地址，可以持续不断更新，只要互联网不倒，就可以一直更新！如果喜欢，请star我哦  
-使用两个草榴邀请码/98邀请码/91邀请码联系我，可以拉你进入软件开发交流群，群里可以提问题，可以提需求，可以交流等等。  
-联系我请加QQ或微信：2950525265   
-或者邮箱：1024huijia@gmail.com   
+### 1024回家简单说明:可免费使用chatgpt
+之所以能及时自动获取地址，是因为写了一个定时爬虫程序，能自动爬取互联网上的各大网站免翻地址，可以持续不断更新，只要互联网不倒，就可以一直更新！如果喜欢，请star我哦
+联系我邮箱：1024huijia@gmail.com   
 或者Telegram群组：<https://t.me/+6Ycya_xTgsA2NGNl>    
 或者Twitter推特：<https://twitter.com/1024huijia?s=21>   
 
@@ -37,10 +34,9 @@ Git云：<https://1024huijia.github.io/TestSome/sources/Mac电脑.zip>
 
 
 
-### 1024回家iPhone版  
+### 1024回家苹果iPhone版  
 
-iPhone安装包需添加微信或者QQ：2950525265 后，付费购买软件或者使用两个1024邀请码/98邀请码兑换软件后即可使用。
-iPhone版功能：和桌面版、浏览器插件版、油猴版一样的功能。保证让你安装成功永久使用   
+因为苹果开发需支付固定的开发费用，所以iPhone安装包需添加微信或者QQ后，付费购买软件或者使用两个1024邀请码/98邀请码兑换软件后即可使用。 
 iPhone界面：   
 ![](https://1024huijia.github.io/QingChunMeizi/iPhoneHuijia2.4t05rnrwiku0.webp)
 
@@ -67,6 +63,4 @@ Git云：<https://1024huijia.github.io/TestSome/sources/油猴脚本.zip>
 
 
 ### 1024回家Github临时版：非常不稳定，强烈建议下载对应的客户端
-
-1024地址：caoliu  
-91地址：91video
+地址链接：<https://1024huijia.github.io/TestSome/huijia.html>
