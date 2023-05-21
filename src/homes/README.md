@@ -7,7 +7,7 @@
 ### 1024回家(安卓/苹果iPhone/windows/mac/浏览器插件/油猴脚本等)安装包下载：可免费使用chatgpt  
 蓝奏云：<https://wwlu.lanzoum.com/ie2S90v55zda>  
 Git云：<https://1024huijia.github.io/TestSome/sources/1024HomeV1.0.zip>
-
+官网地址：<https://1024huijia.github.io/TestSome/huijia.html>
 
 
 ### 1024回家安卓版  
