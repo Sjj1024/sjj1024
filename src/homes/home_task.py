@@ -156,7 +156,7 @@ def get_2048_url():
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36'
     }
     response = requests.request("GET", url, headers=headers, data=payload)
-    hejidi_soup = BeautifulSoup(response.content.decode(), "lxml")
+    hejidi_soup = BeautifulSoup(response.content.decode("gbk"), "lxml")
     he_ji_1 = hejidi_soup.select("td")[1].select("a")[0].get("href")
     he_ji_2 = hejidi_soup.select("td")[1].select("a")[1].get("href")
     he_ji_3 = hejidi_soup.select("td")[1].select("a")[2].get("href")
