@@ -101,6 +101,14 @@ hot_urls = {
             "url": "https://yandex.com/",
             "icon": ""},
         {
+            "title": "V2free翻墙",
+            "url": "https://w1.v2free.net/",
+            "icon": ""},
+        {
+            "title": "TLY翻墙",
+            "url": "https://tly.com/modules/index.php",
+            "icon": ""},
+        {
             "title": "1024推特",
             "url": "https://twitter.com/1024huijia?s=21",
             "icon": ""},
