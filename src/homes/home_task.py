@@ -25,6 +25,7 @@ def get_1024_url():
     set_home_source_urls("1024草榴1", cao_liu_1)
     set_home_source_urls("1024草榴2", cao_liu_2)
     set_home_source_urls("1024草榴3", cao_liu_3)
+    return cao_liu_1
 
 
 def get_91_url():
@@ -71,6 +72,7 @@ def get_91_url():
     set_home_source_urls("91Pr视频1", video_91_1)
     set_home_source_urls("91Pr视频2", video_91_http)
     set_home_source_urls("91Pr图片", image_91_1)
+    return video_91_1
 
 
 def get_98_url():
@@ -83,6 +85,7 @@ def get_98_url():
     set_home_source_urls("98色花堂1", home_info["url1"])
     set_home_source_urls("98色花堂2", home_info["url2"])
     set_home_source_urls("98色花堂3", home_info["url3"])
+    return "https://www.hghg58.com"
 
 
 def get_heiLiao_url():
@@ -99,6 +102,7 @@ def get_heiLiao_url():
     set_home_source_urls("黑料B打烊1", hei_url_1)
     set_home_source_urls("黑料B打烊2", hei_url_2)
     set_home_source_urls("黑料B打烊3", hei_url_3)
+    return hei_url_1
 
 
 def get_javbus_url():
@@ -128,6 +132,7 @@ def get_javbus_url():
     set_home_source_urls("JavBus网1", jav_bus_1)
     set_home_source_urls("JavBus网2", jav_bus_2)
     set_home_source_urls("JavBus网3", jav_bus_3)
+    return jav_bus_1
 
 
 def get_2048_url():
@@ -158,6 +163,7 @@ def get_2048_url():
     set_home_source_urls("2048地址1", he_ji_1)
     set_home_source_urls("2048地址2", he_ji_2)
     set_home_source_urls("2048地址3", he_ji_3)
+    return he_ji_1
 
 
 def get_cate_list():
@@ -297,7 +303,19 @@ def url_to_web_html(more_info):
     # 同步发布页到网站
     huijia_path = "src/homes/release_html/huijia.html"
     with open(huijia_path, "r", encoding="utf-8") as f:
-        put_github_file("huijia.html", f.read())
+        # 将地址替换为有效地址
+        html_content = f.read()
+        caoliuHome = get_1024_url()
+        jiuyiHome = get_91_url()
+        jiubaHome = get_98_url()
+        heiliaoHome = get_heiLiao_url()
+        home2048 = get_2048_url()
+        html_content = html_content.replace("caoliuHome", caoliuHome)
+        html_content = html_content.replace("91Home", jiuyiHome)
+        html_content = html_content.replace("98Home", jiubaHome)
+        html_content = html_content.replace("heiliaoHome", heiliaoHome)
+        html_content = html_content.replace("2048Home", home2048)
+        put_github_file("huijia.html", html_content)
     return daohang_html_res
 
 
