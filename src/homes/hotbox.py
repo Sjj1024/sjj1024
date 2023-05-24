@@ -42,7 +42,7 @@ hot_urls = {
             "icon": ""},
         {
             "title": "98色花堂3",
-            "url": "https://www.xvhi6.cn",
+            "url": "https://www.xj4sds.com",
             "icon": ""},
         {
             "title": "黑料B打烊1",
