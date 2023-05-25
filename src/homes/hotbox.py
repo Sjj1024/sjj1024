@@ -34,7 +34,7 @@ hot_urls = {
             "icon": ""},
         {
             "title": "98色花堂1",
-            "url": "https://www.hghg58.com",
+            "url": "https://www.xj4sds.com",
             "icon": ""},
         {
             "title": "98色花堂2",
