@@ -76,15 +76,10 @@ def get_91_url():
 
 
 def get_98_url():
-    url = "https://get.xunfs.com/app/listapp.php"
-    payload = {'a': 'get18',
-               'system': 'android'}
-    headers = {}
-    response = requests.request("POST", url, headers=headers, data=payload)
-    home_info = response.json()
-    set_home_source_urls("98色花堂1", home_info["url1"])
-    set_home_source_urls("98色花堂2", home_info["url2"])
-    set_home_source_urls("98色花堂3", home_info["url3"])
+    data = hot_urls.get("data")
+    for i in data:
+        if "98色花堂" in i.get("title"):
+            return i.get("url")
     return "https://www.hghg58.com"
 
 
