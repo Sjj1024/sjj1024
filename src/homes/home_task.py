@@ -360,7 +360,7 @@ def url_to_iphone(more_info, is_iphone=True):
     tips_div_str = f"""<div class="tips">{more_info}</div>"""
     # 功能区按钮：安卓版，win版等
     btn_buttons = f"""<div class="tabBox">
-            <h3 class="tabTitle tabTop">1024回家iPhone版</h3>
+            <h3 class="tabTitle tabTop">1024回家iPhone版V0.1</h3>
             <div class="testBox">
                 <div class="btnBox">
                     <button class="btn" id="android">安卓APP</button>
