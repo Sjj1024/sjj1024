@@ -3,7 +3,7 @@
 有需要可以看看：https://1024huijia.github.io/TestSome/huijia.html
 安卓下载地址：https://wwlu.lanzoum.com/i9i7z0wo8eod
 安卓界面截图：
-[img]https://1024huijia.github.io/QingChunMeizi/androidhome.2i7k11inud40.webp[/img]
+[img]https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/androidhome.ae2xf6f7ckg.webp[/img]
 
 
 分享一个我开发的1024回家软件，可以随时获取草榴、91Porn、98色花堂、黑料不打样、JavBug、2048等全球1000多个成人网站的免翻地址，并可以免费使用ChatGpt，
@@ -22,6 +22,5 @@ APP界面截图：
 
 
 
-分享一个我开发的软件，可以随时获取全球1000多个成人网站的免翻地址，并可以免费使用ChatGpt，
-支持所有客户端：安卓，苹果iPhone，windows和mac电脑，浏览器插件，油猴脚本等
+分享一个我开发的软件，可以随时获取全球1000多个成人网站的免翻地址，并可以免费使用ChatGpt，持所有客户端：安卓，苹果iPhone，windows和mac电脑，浏览器插件，油猴脚本等
 有需要可以看看：[url=https://1024huijia.github.io/TestSome/huijia.html]https://1024huijia.github.io/TestSome/huijia.html[/url]

@@ -57,6 +57,10 @@ hot_urls = {
             "url": "https://zztt72.com",
             "icon": ""},
         {
+            "title": "黑料论坛1",
+            "url": "https://4555.fun/",
+            "icon": ""},
+        {
             "title": "JavBus网1",
             "url": "https://www.seejav.pw",
             "icon": ""},
@@ -79,6 +83,10 @@ hot_urls = {
         {
             "title": "2048地址3",
             "url": "https://bbs23.scxbf.com/2048/?mmxkbe=ozxy22",
+            "icon": ""},
+        {
+            "title": "海角社区1",
+            "url": "https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/haijiao.3ql8eddja380.webp",
             "icon": ""},
         {
             "title": "BT电影1",
