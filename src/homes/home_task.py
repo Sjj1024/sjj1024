@@ -94,8 +94,8 @@ def get_heiLiao_url():
     hei_url_2 = hei_soup.select_one("div.box-wrap").select("a")[1].get("href")
     hei_url_num = int(re.search(r'\d+', hei_url_1).group(0)) - 1
     hei_url_3 = f"https://zztt{hei_url_num}.com/"
-    set_home_source_urls("黑料B打烊1", hei_url_1)
-    set_home_source_urls("黑料B打烊2", hei_url_2)
+    set_home_source_urls("黑料B打烊1", hei_url_2)
+    set_home_source_urls("黑料B打烊2", hei_url_1)
     set_home_source_urls("黑料B打烊3", hei_url_3)
     return hei_url_1
 
