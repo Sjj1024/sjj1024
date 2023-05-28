@@ -471,11 +471,11 @@ def get_app_files():
         "porn_video_1ad": "寻找能长期提供草榴邀请码/98邀请码/91邀请码的朋友合作：1024huijia@gmail.com",
         "porn_video_2ad": "",
         "porn_video_3ad": "",
-        "porn_video_4ad": "寻找能长期提供草榴邀请码/98邀请码/91邀请码的朋友合作：1024huijia@gmail.com",
+        "porn_video_4ad": "",
         "porn_video_5ad": "",
         # 也是98色花堂首页的头部广告内容
-        "porn_video_6ad": "",
-        "porn_video_footer": "寻找能长期提供草榴邀请码/98邀请码/91邀请码的朋友合作：1024huijia@gmail.com",
+        "porn_video_6ad": "寻找能长期提供草榴邀请码/98邀请码/91邀请码的朋友合作：1024huijia@gmail.com",
+        "porn_video_footer": "",
         "porn_image_url": get_home_from_urls("91Pr图片"),  # 91图片区地址
         "porn_photo_header": "寻找能长期提供草榴邀请码/98邀请码/91邀请码的朋友合作：1024huijia@gmail.com",
         "porn_photo_header2": "",
