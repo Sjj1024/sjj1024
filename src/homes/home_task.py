@@ -441,14 +441,14 @@ def get_app_files():
         "more_urls": "1024回家：https://1024huijia.github.io/TestSome/huijia.html",
         # 更多推荐页面
         "more_html": url_to_android_html(
-            """<span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问</span>"""),
+            """<span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问，寻找能长期提供草榴邀请码/98邀请码/91邀请码的朋友合作：1024huijia@gmail.com</span>"""),
         "headers": "/index.php?u=628155&ext=9a511;/index.php?u=52993&ext=99ea2;/index.php?u=595394&ext=c180e;/index.php?u=384581&ext=26585;/index.php?u=627793&ext=09126",
         "about": f"""
          1.如果你想感谢我，请合理打赏吧，<br>我的比特币账户：<span style="padding: 0 5px 0 2px;word-wrap: break-word;">3HJTSzf2GL7Bj8r7HakUNS1G9jauemk1Lt</span><br>我的以太坊账户：<span style="padding: 0 5px 0 2px;word-wrap: break-word;">0xb9061992ea948e247a4542209c14c5e7ea79afc6</span><br>
          2.1024回家浏览器插件：<a href="https://wwlu.lanzoum.com/iFf8C0tl449i" style="text-decoration: none;" >1024回家Chrome插件</a><br>
          3.1024回家油猴脚本：<a href="https://wwlu.lanzoum.com/ik0TD0tl9cjg" style="text-decoration: none;" >1024回家油猴脚本</a><br>
-         4.1024回家Windows桌面端：<a href="https://wwlu.lanzoum.com/iRQCb0tl5zta" style="text-decoration: none;" >1024回家Win桌面</a><br>
-         5.1024回家Macbook桌面端：<a href="https://wwlu.lanzoum.com/iNtOg0tl448h" style="text-decoration: none;" >1024回家Mac桌面</a><br>
+         4.1024回家Windows：<a href="https://wwlu.lanzoum.com/iRQCb0tl5zta" style="text-decoration: none;" >1024回家Win桌面</a><br>
+         5.1024回家Macbook：<a href="https://wwlu.lanzoum.com/iNtOg0tl448h" style="text-decoration: none;" >1024回家Mac桌面</a><br>
          6.1024回家iPhone端：<a href="https://1024huijia.github.io/QingChunMeizi/iPhoneHuijia2.4t05rnrwiku0.webp" style="text-decoration: none;" >1024回家苹果iPhone</a><br>
          6.1024回家推特：<a href="https://twitter.com/1024huijia?s=21" style="text-decoration: none;" >1024回家推特</a><br>
          6.1024回家Tg群组：<a href="https://t.me/+6Ycya_xTgsA2NGNl" style="text-decoration: none;" >1024回家Tg群组</a><br>
@@ -460,20 +460,20 @@ def get_app_files():
         "caoliu_url2": get_home_from_urls("1024草榴2"),  # 草榴免翻地址
         "caoliu_url3": get_home_from_urls("1024草榴3"),  # 草榴免翻地址
         "article_ad": "",
-        "commit_ad": "",  # 草榴评论区广告，支持html
+        "commit_ad": "寻找能长期提供草榴邀请码/98邀请码/91邀请码的朋友合作：1024huijia@gmail.com",  # 草榴评论区广告，支持html
         # 注册页面中，需要邀请码的提示语，为空则什么都不提示
         "mazinote": "联系QQ/微信可得邀请码:2950525265",
         "porn_video_app": "https://its.better2021app.com",  # 91视频地址
         "porn_video_url": get_home_from_urls("91Pr视频1"),  # 91视频地址
-        "porn_video_1ad": "",
+        "porn_video_1ad": "寻找能长期提供草榴邀请码/98邀请码/91邀请码的朋友合作：1024huijia@gmail.com",
         "porn_video_2ad": "",
         "porn_video_3ad": "",
-        "porn_video_4ad": "",
+        "porn_video_4ad": "寻找能长期提供草榴邀请码/98邀请码/91邀请码的朋友合作：1024huijia@gmail.com",
         "porn_video_5ad": "",
         "porn_video_6ad": "",
-        "porn_video_footer": "",
+        "porn_video_footer": "寻找能长期提供草榴邀请码/98邀请码/91邀请码的朋友合作：1024huijia@gmail.com",
         "porn_image_url": get_home_from_urls("91Pr图片"),  # 91图片区地址
-        "porn_photo_header": "",
+        "porn_photo_header": "寻找能长期提供草榴邀请码/98邀请码/91邀请码的朋友合作：1024huijia@gmail.com",
         "porn_photo_header2": "",
         "porn_photo_footer": "",
         "porn_photo_wentou": "",
@@ -543,7 +543,7 @@ def get_iphone_files():
         },
         # 其中的内容是消息提醒内容
         "content": url_to_iphone(
-            """<span>提示: 部分网站可能需要VPN翻墙后访问</span>""",
+            """<span>提示: 部分网站可能需要VPN翻墙后访问，寻找能长期提供草榴邀请码/98邀请码/91邀请码的朋友合作：1024huijia@gmail.com</span>""",
             True)
     }
     return iphone_home
@@ -588,7 +588,7 @@ def get_chrome_files():
                            "91ImgCookies": "CzG_auth",
                            "98cookies": "cPNj_2132_auth"},
             # 更多消息提醒
-            "more_info": f"""<div style="color: red;"><span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问</span>，如果你想感谢我，
+            "more_info": f"""<div style="color: red;"><span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问，寻找能长期提供草榴邀请码/98邀请码/91邀请码的朋友合作：1024huijia@gmail.com</span>，如果你想感谢我，
     我的比特币账户：<span style="padding: 0 5px 0 2px;">3HJTSzf2GL7Bj8r7HakUNS1G9jauemk1Lt</span>我的以太坊账户：<span style="padding: 0 5px 0 2px;">0xb9061992ea948e247a4542209c14c5e7ea79afc6</span></div>
             """,
             # 其他回家客户端下载
@@ -728,7 +728,7 @@ def get_desktop_files():
             "GongXians": ["/index.php?u=628155&ext=9a511", "/index.php?u=529913&ext=99ea2",
                           "/index.php?u=595394&ext=c180e"],
             # 更多消息提醒
-            "more_info": f"""<div style="color: red;"><span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问</span>，如果你想感谢我，
+            "more_info": f"""<div style="color: red;"><span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问，寻找能长期提供草榴邀请码/98邀请码/91邀请码的朋友合作：1024huijia@gmail.com</span>，如果你想感谢我，
             我的比特币账户：<span style="padding: 0 5px 0 2px;">3HJTSzf2GL7Bj8r7HakUNS1G9jauemk1Lt</span>我的以太坊账户：<span style="padding: 0 5px 0 2px;">0xb9061992ea948e247a4542209c14c5e7ea79afc6</span></div>
     """,
             # 其他回家客户端下载
