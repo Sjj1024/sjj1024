@@ -6,7 +6,7 @@
 或者Twitter推特：<https://twitter.com/1024huijia?s=21>   
 
 ### 1024回家(安卓/苹果iPhone/windows/mac/浏览器插件/油猴脚本等)安装包下载：可免费使用chatgpt  
-蓝奏云：<https://wwlu.lanzoum.com/ie2S90v55zda>  
+蓝奏云：<https://wwlu.lanzoum.com/izzXa0xi988h>  
 Git云：<https://1024huijia.github.io/TestSome/sources/1024HomeV1.0.zip>
 官网地址：<https://1024huijia.github.io/TestSome/huijia.html>
 
@@ -15,7 +15,7 @@ Git云：<https://1024huijia.github.io/TestSome/sources/1024HomeV1.0.zip>
 
 安卓版功能最强：支持左侧列表页侧滑切换不同的热门网站，支持动态切换不同的源地址，支持屏蔽广告等功能
 安卓安装包：  
-蓝奏云：<https://wwlu.lanzoum.com/iZZ9d0uun2de>  
+蓝奏云：<https://wwlu.lanzoum.com/ipvxZ0xi98ba>  
 Git云：<https://1024huijia.github.io/TestSome/sources/1024回家230506-3.1.apk>    
 安卓界面：
 ![](https://1024huijia.github.io/QingChunMeizi/androidhome.2i7k11inud40.webp)
