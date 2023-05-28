@@ -462,7 +462,7 @@ def get_app_files():
         "article_ad": "",
         "commit_ad": "寻找能长期提供草榴邀请码/98邀请码/91邀请码的朋友合作：1024huijia@gmail.com",  # 草榴评论区广告，支持html
         # 注册页面中，需要邀请码的提示语，为空则什么都不提示
-        "mazinote": "联系QQ/微信可得邀请码:2950525265",
+        "mazinote": "得邀请码QQ/微信:2950525265",
         "porn_video_app": "https://its.better2021app.com",  # 91视频地址
         "porn_video_url": get_home_from_urls("91Pr视频1"),  # 91视频地址
         "porn_video_1ad": "寻找能长期提供草榴邀请码/98邀请码/91邀请码的朋友合作：1024huijia@gmail.com",
@@ -470,6 +470,7 @@ def get_app_files():
         "porn_video_3ad": "",
         "porn_video_4ad": "寻找能长期提供草榴邀请码/98邀请码/91邀请码的朋友合作：1024huijia@gmail.com",
         "porn_video_5ad": "",
+        # 也是98色花堂首页的头部广告内容
         "porn_video_6ad": "",
         "porn_video_footer": "寻找能长期提供草榴邀请码/98邀请码/91邀请码的朋友合作：1024huijia@gmail.com",
         "porn_image_url": get_home_from_urls("91Pr图片"),  # 91图片区地址
