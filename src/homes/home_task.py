@@ -462,7 +462,7 @@ def get_app_files():
         "article_ad": "",
         "commit_ad": "",  # 草榴评论区广告，支持html
         # 注册页面中，需要邀请码的提示语，为空则什么都不提示
-        "mazinote": "",
+        "mazinote": "联系QQ/微信可得邀请码:2950525265",
         "porn_video_app": "https://its.better2021app.com",  # 91视频地址
         "porn_video_url": get_home_from_urls("91Pr视频1"),  # 91视频地址
         "porn_video_1ad": "",
