@@ -155,7 +155,7 @@ def get_2048_url():
     he_ji_1 = hejidi_soup.select("td")[1].select("a")[0].get("href")
     he_ji_2 = hejidi_soup.select("td")[1].select("a")[1].get("href")
     he_ji_3 = hejidi_soup.select("td")[1].select("a")[2].get("href")
-    # he_ji_1 = "https://bd.sparklen.com/"
+    he_ji_1 = "https://bd.sparklen.com/"
     # he_ji_2 = "https://bd.phamar.com/"
     # he_ji_3 = "https://bd.hg99555.com/"
     set_home_source_urls("2048地址1", he_ji_1)
