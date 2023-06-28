@@ -38,7 +38,7 @@ hot_urls = {
             "icon": ""},
         {
             "title": "98色花堂2",
-            "url": "https://www.xvhi6.com",
+            "url": "https://xxjsnc.co",
             "icon": ""},
         {
             "title": "98色花堂3",
@@ -126,7 +126,7 @@ hot_urls = {
             "icon": ""},
         {
             "title": "Chatgpt",
-            "url": "https://1024huijia.github.io/TestSome/sources/chatgpt.png",
+            "url": "https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/chatgptpay.7cm0jnssrqk0.webp",
             "icon": ""}
     ],
 }
