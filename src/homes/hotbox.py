@@ -38,7 +38,7 @@ hot_urls = {
             "icon": ""},
         {
             "title": "98色花堂2",
-            "url": "https://xxjsnc.co",
+            "url": "https://1hyy6.com",
             "icon": ""},
         {
             "title": "98色花堂3",
