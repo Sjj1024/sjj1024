@@ -18,10 +18,3 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 cdnd:  
 ![](https://img-blog.csdnimg.cn/2049460a205a4b869ce2c66ee58a38c0.png)
-
-github:
-![](https://sjj1024.github.io/CvReport/img/220310103457shan.jpg)
-
-
-98tang:
-![](https://xksm54s.com/tupian/forum/202305/25/213811x59z59a92dd5nrj2.jpg)
