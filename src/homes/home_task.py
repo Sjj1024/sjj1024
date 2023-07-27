@@ -445,7 +445,7 @@ def get_app_files():
         # 更多推荐页面
         "more_html": url_to_android_html(
             """<span style="color: red;">提示: 部分网站可能需要VPN翻墙后访问，寻找能长期提供98邀请码/91邀请码的朋友合作：1024huijia@gmail.com</span>"""),
-        "headers": "/index.php?u=640551&ext=ee058;/index.php?u=638683&ext=20bd6;/index.php?u=523453&ext=ce329;/index.php?u=480167&ext=04b36;/index.php?u=497784&ext=90f55",
+        "headers": "",
         "about": f"""
          1.如果你想感谢我，请合理打赏吧，<br>我的比特币账户：<span style="padding: 0 5px 0 2px;word-wrap: break-word;">3HJTSzf2GL7Bj8r7HakUNS1G9jauemk1Lt</span><br>我的以太坊账户：<span style="padding: 0 5px 0 2px;word-wrap: break-word;">0xb9061992ea948e247a4542209c14c5e7ea79afc6</span><br>
          2.1024回家浏览器插件：<a href="https://wwlu.lanzoum.com/iFf8C0tl449i" style="text-decoration: none;" >1024回家Chrome插件</a><br>

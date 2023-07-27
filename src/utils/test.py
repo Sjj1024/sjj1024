@@ -1,5 +1,17 @@
-# 随机抽选文件中24张照片，其余的全部删除
-from PIL import Image
+import copy
+
+a = [1, 2, 3]
+b = [4, 5, a]
+
+c = copy.copy(b)
+c[1] = 7
+c[2].append(6)
+
+print(b)
 
 
-print(Image)
+d = copy.deepcopy(b)
+d[1] = 8
+d[2].append(9)
+
+print(b)
