@@ -437,7 +437,7 @@ def get_app_files():
         "showmessage": False,
         "message": "这是最新版本，增加了返回按钮",
         "message_url": "",
-        "interval": 10,  # 刷贡献的时间间隔/每多少小时刷一次
+        "interval": 20,  # 刷贡献的时间间隔/每多少小时刷一次
         "brush_rate": 10,  # 刷贡献的百分比，越大越容易触发刷
         "brush_all": True,  # 是否全部刷，只要是headers里面的，就都刷？
         # 分享的内容
