@@ -1,8 +1,9 @@
 想我了？ 请star我  
 这是一个普普通通的仓库，感谢github  
-个人博客地址：<https://xiaoshen.blog.csdn.net/>
+个人博客地址：<https://xiaoshen.blog.csdn.net/>  
+![](https://img-blog.csdnimg.cn/direct/11f981d0f7b54817a1dc7eb04dba6813.png)
 
-先安装依赖吧:   
+python源:   
 https://pypi.tuna.tsinghua.edu.cn/simple/ 清华  
 http://pypi.doubanio.com/simple/ 豆瓣  
 http://mirrors.aliyun.com/pypi/simple/ 阿里  
@@ -13,8 +14,3 @@ http://mirrors.163.com/pypi/simple/ 网易
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
 ```
 
-博客园：
-![](https://img2023.cnblogs.com/blog/2466361/202212/2466361-20221208182656762-1298240916.png)
-
-cdnd:  
-![](https://img-blog.csdnimg.cn/2049460a205a4b869ce2c66ee58a38c0.png)
