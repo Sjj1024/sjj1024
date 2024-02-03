@@ -1,17 +1,22 @@
-import copy
+#!/usr/bin/env python
 
-a = [1, 2, 3]
-b = [4, 5, a]
-
-c = copy.copy(b)
-c[1] = 7
-c[2].append(6)
-
-print(b)
+import asyncio
+import websockets
 
 
-d = copy.deepcopy(b)
-d[1] = 8
-d[2].append(9)
+async def echo(websocket):
+    while True:
+        name = await websocket.recv()
+        print(f"接收到消息：{name}")
+        replay = f"Hello {name}"
+        await websocket.send(replay)
+        print(f"发送消息结束")
 
-print(b)
+
+async def main():
+    async with websockets.serve(echo, "localhost", 8765):
+        print("服务端启动成功：ws://localhost:8765")
+        await asyncio.Future()  # run forever
+
+
+asyncio.run(main())
