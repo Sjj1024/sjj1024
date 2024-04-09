@@ -15,8 +15,8 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
 ```
 
 ## npm源:
-常用源地址：
-官方： registry http://www.npmjs.org
+常用源地址：  
+官方： registry http://www.npmjs.org    
 阿里： registry https://registry.npmmirror.com
 
 查看源地址
