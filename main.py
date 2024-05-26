@@ -41,15 +41,15 @@ def recursive_dir(path, f, file_list):
     """
     file_names = os.listdir(os.path.join(path, f))  # 获取当前路径下的文件名，返回List
     for file in file_names:
-        newDir = path + '、' + f + '、' + file  # 将文件命加入到当前文件路径后面
-        if os.path.isfile(newDir):  # 如果是文件
+        new_dir = path + '、' + f + '、' + file  # 将文件命加入到当前文件路径后面
+        if os.path.isfile(new_dir):  # 如果是文件
             if "pycache" not in f and "pycache" not in file:
-                module_file = "src" + newDir.split("src")[1].replace("、", ".")
+                module_file = "src" + new_dir.split("src")[1].replace("、", ".")
                 if module_file.find("index") != -1:
                     file_list.append(module_file)
         else:
             if file not in ["__pycache__", "tasks", "utils", "common"]:
-                recursive_dir("、".join(newDir.split("、")[0:-1]), newDir.split("、")[-1], file_list)  # 如果不是文件，递归这个文件夹的路径
+                recursive_dir("、".join(new_dir.split("、")[0:-1]), new_dir.split("、")[-1], file_list)  # 如果不是文件，递归这个文件夹的路径
 
 
 def get_my_ip():
