@@ -27,4 +27,6 @@ npm config get registry
 设置源地址：
 ```
 npm config set registry http://www.npmjs.org
+
+npm config set registry https://registry.npmmirror.com
 ```
