@@ -1,7 +1,8 @@
-## 想我了？ 请star我  
-这是一个普普通通的仓库，感谢github   
-个人博客地址：<https://xiaoshen.blog.csdn.net/>   
-[![CSDN](https://img-blog.csdnimg.cn/direct/11f981d0f7b54817a1dc7eb04dba6813.png)](https://xiaoshen.blog.csdn.net/)
+## 让我们认识一下？
+个人CSDN博客地址：<https://xiaoshen.blog.csdn.net/>   
+个人掘金博客地址：<https://juejin.cn/user/70007368988926/>   
+努力学习中，不会就去学，学习永远不会吃亏的。
+In the process of hard work, if you don't know how to learn, go ahead and learn. Learning will never be at a disadvantage
      
 ## python源:     
 https://pypi.tuna.tsinghua.edu.cn/simple/ 清华    
