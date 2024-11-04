@@ -8,8 +8,7 @@ In the process of hard work, if you don't know how to learn, go ahead and learn.
 ## 项目介绍  
 LiveBox是一个仿抖音直播的客户端，只可以看，不可以花钱，看紧自己的口袋，默默看播。
 仓库地址：https://github.com/Sjj1024/LiveBox  
-桌面安装包下载地址：  
-https://github.com/Sjj1024/LiveBox/releases
+桌面安装包下载地址：https://github.com/Sjj1024/LiveBox/releases
 
 
 PakePlus项目：Turn any webpage into a desktop app and mobile app with Rust. 
