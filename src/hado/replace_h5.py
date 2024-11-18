@@ -10,7 +10,7 @@ DOWNLOAD_DIR = './downloaded_images'  # 图片下载保存路径
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 
 # 查找阿里云 OSS 图片 URL 的正则表达式
-image_url_pattern = re.compile(r'https?://.*?aliyuncs\.com/.*?(?:jpg|jpeg|png|gif|svg)')
+image_url_pattern = re.compile(r'https?://.*?amazonaws\.com/.*?(?:jpg|jpeg|png|gif|svg)')
 
 
 # 遍历项目目录中的所有文件
@@ -34,8 +34,8 @@ def find_image_urls(directory):
                 # matches = image_url_pattern.findall(content)
                 if urls:
                     for image_path in urls:
-                        image_name = image_path.split("/")[-1]
-                        new_url = "https://global-resource-dev.s3.ap-southeast-2.amazonaws.com/HADOGO_FILE/hado-H5/" + image_name
+                        image_name = image_path.split("/")[-1].split(".")[0]
+                        new_url = "https://global-resource-dev.s3.ap-southeast-2.amazonaws.com/HADOGO_FILE/hado-H5/" + image_name + ".webp"
                         # 替换内容中的图片 URL
                         updated_content = updated_content.replace(image_path, new_url)
 
