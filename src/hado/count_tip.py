@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 读取 CSV 文件
-df = pd.read_csv('./files/微信支付账单20241101-202416.csv')
+df = pd.read_csv('./files/微信支付账单20241118-20241130.csv')
 
 # 筛选交易对象包含 'hado' 且 '收/支' 类型是 '支出' 的数据
 filtered_df = df[(df['交易对方'].str.contains('hado', na=False)) & (df['收/支'] == '支出')].copy()
@@ -20,7 +20,8 @@ total_amount = filtered_df['金额(元)'].sum()
 
 # 打印结果
 print("一共有多少天：", unique_days_count)
-print("金额总和：", total_amount)
+print("预期金额总和", unique_days_count * 270)
+print("实际金额总和：", total_amount)
 # 加上我的一共多少钱
 add_song = 27 * unique_days_count + total_amount
 print(f"加上我的总和: {add_song}")
